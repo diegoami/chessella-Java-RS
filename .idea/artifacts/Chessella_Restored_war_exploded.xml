@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="Chessella-Restored:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Chessella_Restored_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Chessella-Restored/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Chessella-Restored" />
+          <element id="dir-copy" path="$PROJECT_DIR$/resources/classes-dir" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="chessella-libs" />
+        </element>
+      </element>
+      <element id="dir-copy" path="$PROJECT_DIR$/web" />
+    </root>
+  </artifact>
+</component>
