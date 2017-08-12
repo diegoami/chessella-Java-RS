@@ -62,7 +62,7 @@ public class PGNAdapter {
       }
    }
 
-   public static ChessGameGroup getChessGameGroupFromStream(Reader freader) {
+   public static ChessGameGroup getChessGameGroupFromStream(Reader freader)  throws PGNException {
       ChessGameGroup gameGroup = new ChessGameGroup();
       PGNReader reader = new PGNReader(freader);
       ChessGame game = null;
@@ -87,9 +87,8 @@ public class PGNAdapter {
                log.debug("Successfully read game " + game.getGameInfo().get("Board"));
             }
          } catch (Exception var6) {
-            log.warn("COULD NOT READ GAME " + gameCounter + " in file ", var6);
-            log.warn("Adding empty game ");
-            gameGroup.addChessGame(new ChessGame());
+            log.error("COULD NOT READ GAME " + gameCounter + " in file ", var6);
+            throw new PGNException(var6);
          }
       } while(game != null && gameCounter < MAX_GAMES);
 

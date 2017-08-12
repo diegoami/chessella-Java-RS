@@ -247,12 +247,13 @@ public class GameAction extends ActionSupport {
                   log.info("Successfully executed saveGameFromPgn");
                   return "success";
                } catch (PGNException var9) {
-                  this.addActionError("You cannot add more than " + this.getUser().getMaxgames() + " games ");
+                   log.error("Exception in saveGameFromPgn", var9);
+                   this.addActionError("Could not add games : " + var9.getMessage());
+                   return "error";
                } finally {
                   he = null;
                }
 
-               return "input";
             } else {
                this.addActionError("You have already saved your maximal amount of games");
                return "input";
