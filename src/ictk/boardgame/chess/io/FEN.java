@@ -2,15 +2,15 @@ package ictk.boardgame.chess.io;
 
 import ictk.boardgame.Board;
 import ictk.boardgame.chess.ChessBoard;
-import ictk.boardgame.chess.io.ChessBoardNotation;
-import ictk.boardgame.chess.io.SAN;
-import ictk.util.Log;
+import org.apache.log4j.Logger;
+
 import java.io.IOException;
 import java.util.Locale;
 
 public class FEN implements ChessBoardNotation {
 
-   public static long DEBUG = Log.BoardNotation;
+
+   private static Logger log = Logger.getLogger(FEN.class.getName());
    protected static SAN san = new SAN();
    Locale locale;
 

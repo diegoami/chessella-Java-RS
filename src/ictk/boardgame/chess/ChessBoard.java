@@ -17,15 +17,15 @@ import ictk.boardgame.chess.Rook;
 import ictk.boardgame.chess.Square;
 import ictk.boardgame.chess.io.FEN;
 import ictk.boardgame.chess.io.SAN;
-import ictk.util.Log;
+import org.apache.log4j.Logger;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
 public class ChessBoard implements Board {
-
-   public static final long DEBUG = Log.Board;
+   private static Logger log = Logger.getLogger(ChessBoard.class.getName());
    public static final byte NULL_FILE = 0;
    public static final byte NULL_RANK = 0;
    public static final byte NO_ENPASSANT = 0;
@@ -129,7 +129,7 @@ public class ChessBoard implements Board {
       King otherKing = null;
       List movingTeam = null;
       List otherTeam = null;
-      Log.debug(DEBUG, "generating legal moves");
+      log.debug( "generating legal moves");
       this.staleLegalDests = false;
       byte i = 0;
 
@@ -158,8 +158,8 @@ public class ChessBoard implements Board {
          }
 
          threats = this.getThreats(movingKing);
-         Log.debug(DEBUG, "THREATS TO MOVING KING! (" + threats.length + ")");
-         Log.debug2(DEBUG, "Threat: " + threats[0]);
+         log.debug( "THREATS TO MOVING KING! (" + threats.length + ")");
+         log.debug( "Threat: " + threats[0]);
          label82:
          switch(threats.length) {
          case 1:
@@ -230,13 +230,13 @@ public class ChessBoard implements Board {
 
          attackers = new LinkedList();
          team = isBlack?this.blackTeam.iterator():this.whiteTeam.iterator();
-         Log.debug(DEBUG, "Finding " + (isBlack?"Black":"White") + " attackers on " + sq);
+         log.debug( "Finding " + (isBlack?"Black":"White") + " attackers on " + sq);
 
          while(team.hasNext()) {
             piece = (ChessPiece)team.next();
             if(piece.isLegalAttack(sq)) {
                attackers.add(piece);
-               Log.debug2(DEBUG, "attacker: " + piece + "(" + piece.getSquare() + ")");
+               log.debug( "attacker: " + piece + "(" + piece.getSquare() + ")");
             }
          }
 
@@ -245,7 +245,7 @@ public class ChessBoard implements Board {
             threats = (ChessPiece[])attackers.toArray(threats);
             return threats;
          } else {
-            Log.debug(DEBUG, "no attackers found.");
+            log.debug( "no attackers found.");
             return threats;
          }
       }
@@ -428,16 +428,16 @@ public class ChessBoard implements Board {
          }
 
          if(!found) {
-            Log.debug(DEBUG, "Illegal Move piece: " + piece_index + " file: " + orig_f + " rank: " + orig_r + " dest: " + dest);
-            Log.debug2(DEBUG, this);
-            Log.debug2(DEBUG, this.dumpLegalMoves());
-            Log.debug2(DEBUG, this.dumpLegalMoves(!this.isBlackMove));
+            log.debug( "Illegal Move piece: " + piece_index + " file: " + orig_f + " rank: " + orig_r + " dest: " + dest);
+            log.debug( this);
+            log.debug( this.dumpLegalMoves());
+            log.debug( this.dumpLegalMoves(!this.isBlackMove));
             throw new IllegalMoveException("Illegal Move");
          } else if(found && count > 1) {
-            Log.debug(DEBUG, "AMBIGUOUSMOVE!!!! to " + dest);
-            Log.debug2(DEBUG, this);
-            Log.debug2(DEBUG, this.dumpLegalMoves());
-            Log.debug2(DEBUG, this.dumpLegalMoves(!this.isBlackMove));
+            log.debug( "AMBIGUOUSMOVE!!!! to " + dest);
+            log.debug( this);
+            log.debug( this.dumpLegalMoves());
+            log.debug( this.dumpLegalMoves(!this.isBlackMove));
             throw new AmbiguousChessMoveException("Ambiguous Move", piece_index, orig_f, orig_r, dest.file, dest.rank, dupes);
          } else {
             return mover.orig;
@@ -482,7 +482,7 @@ public class ChessBoard implements Board {
          }
 
          check = this.isBlackMove?this.blackKing.isInCheck():this.whiteKing.isInCheck();
-         Log.debug(DEBUG, "the King in check: " + check);
+         log.debug( "the King in check: " + check);
          return check;
       }
    }
@@ -760,16 +760,16 @@ public class ChessBoard implements Board {
             if(wking) {
                if(matrix[4][0] == 75) {
                   if(matrix[0][0] != 82) {
-                     Log.debug(DEBUG, "setting white q-side castle: false");
+                     log.debug( "setting white q-side castle: false");
                      this.setWhiteCastleableQueenside(false);
                   }
 
                   if(matrix[7][0] != 82) {
-                     Log.debug(DEBUG, "setting white k-side castle: false");
+                     log.debug( "setting white k-side castle: false");
                      this.setWhiteCastleableKingside(false);
                   }
                } else {
-                  Log.debug(DEBUG, "setting white castleable: false");
+                  log.debug( "setting white castleable: false");
                   this.whiteKing.moveCount = 1;
                }
             }
@@ -777,16 +777,16 @@ public class ChessBoard implements Board {
             if(bking) {
                if(matrix[4][7] == 107) {
                   if(matrix[0][7] != 114) {
-                     Log.debug(DEBUG, "setting black q-side castle: false");
+                     log.debug( "setting black q-side castle: false");
                      this.setBlackCastleableQueenside(false);
                   }
 
                   if(matrix[7][7] != 114) {
-                     Log.debug(DEBUG, "setting black k-side castle: false");
+                     log.debug( "setting black k-side castle: false");
                      this.setBlackCastleableKingside(false);
                   }
                } else {
-                  Log.debug(DEBUG, "setting black castleable: false");
+                  log.debug( "setting black castleable: false");
                   this.blackKing.moveCount = 1;
                }
             }
@@ -1030,10 +1030,10 @@ public class ChessBoard implements Board {
       } else if(o != null && o.getClass() == this.getClass()) {
          boolean equal = true;
          ChessBoard b = (ChessBoard)o;
-         Log.debug(DEBUG, "comparing boards");
+         log.debug( "comparing boards");
          equal = this.isBlackMove == b.isBlackMove;
          if(!equal) {
-            Log.debug2(DEBUG, "move parity failed");
+            log.debug( "move parity failed");
          }
 
          if(equal) {
@@ -1041,7 +1041,7 @@ public class ChessBoard implements Board {
          }
 
          if(!equal) {
-            Log.debug2(DEBUG, "board dimension(f) failed");
+            log.debug( "board dimension(f) failed");
          }
 
          if(equal) {
@@ -1049,7 +1049,7 @@ public class ChessBoard implements Board {
          }
 
          if(!equal) {
-            Log.debug2(DEBUG, "board dimension(r) failed");
+            log.debug( "board dimension(r) failed");
          }
 
          if(equal) {
@@ -1057,7 +1057,7 @@ public class ChessBoard implements Board {
          }
 
          if(!equal) {
-            Log.debug2(DEBUG, "castling QW failed");
+            log.debug( "castling QW failed");
          }
 
          if(equal) {
@@ -1065,7 +1065,7 @@ public class ChessBoard implements Board {
          }
 
          if(!equal) {
-            Log.debug2(DEBUG, "castling QB failed");
+            log.debug( "castling QB failed");
          }
 
          if(equal) {
@@ -1073,7 +1073,7 @@ public class ChessBoard implements Board {
          }
 
          if(!equal) {
-            Log.debug2(DEBUG, "castling KW failed");
+            log.debug( "castling KW failed");
          }
 
          if(equal) {
@@ -1081,7 +1081,7 @@ public class ChessBoard implements Board {
          }
 
          if(!equal) {
-            Log.debug2(DEBUG, "castling KB failed");
+            log.debug( "castling KB failed");
          }
 
          if(equal) {
@@ -1089,7 +1089,7 @@ public class ChessBoard implements Board {
          }
 
          if(!equal) {
-            Log.debug2(DEBUG, "enpassant failed");
+            log.debug( "enpassant failed");
          }
 
          if(equal) {
@@ -1100,13 +1100,13 @@ public class ChessBoard implements Board {
                   } else {
                      equal = b.squares[i][j].getOccupant() != null;
                      if(!equal) {
-                        Log.debug2(DEBUG, "squares[" + i + "][" + j + "] nulls failed");
+                        log.debug( "squares[" + i + "][" + j + "] nulls failed");
                      }
 
                      if(equal) {
                         equal = this.squares[i][j].getOccupant().getIndex() == b.squares[i][j].getOccupant().getIndex();
                         if(!equal) {
-                           Log.debug2(DEBUG, "squares[" + i + "][" + j + "].Occupant failed");
+                           log.debug( "squares[" + i + "][" + j + "].Occupant failed");
                         }
                      }
                   }
@@ -1115,7 +1115,7 @@ public class ChessBoard implements Board {
          }
 
          if(equal) {
-            Log.debug2(DEBUG, "boards are the same");
+            log.debug( "boards are the same");
          }
 
          return equal;

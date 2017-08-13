@@ -1,23 +1,16 @@
 package ictk.boardgame;
 
-import ictk.boardgame.AmbiguousMoveException;
-import ictk.boardgame.Board;
-import ictk.boardgame.ContinuationArrayList;
-import ictk.boardgame.ContinuationList;
-import ictk.boardgame.Game;
-import ictk.boardgame.IllegalMoveException;
-import ictk.boardgame.Move;
-import ictk.boardgame.MoveException;
-import ictk.boardgame.OutOfTurnException;
 import ictk.boardgame.chess.ChessGame;
 import ictk.boardgame.chess.io.FEN;
-import ictk.util.Log;
+
+import org.apache.log4j.Logger;
+
 import java.util.LinkedList;
 import java.util.ListIterator;
 
 public class History {
+   private static Logger log = Logger.getLogger(History.class.getName());
 
-   public static final long DEBUG = Log.History;
    protected Game game;
    protected ContinuationList head;
    protected Move currMove;
@@ -441,9 +434,9 @@ public class History {
 
    public boolean deepEquals(History hist, boolean checkAnno) {
       boolean t = false;
-      Log.debug(DEBUG, "beginning probe:" + (checkAnno?"":" not") + " checking Annotations");
+      log.debug( "beginning probe:" + (checkAnno?"":" not") + " checking Annotations");
       t = this.probeDeepEquals(this.head, hist.head, checkAnno);
-      Log.debug(DEBUG, "histories: " + (t?"same":"different"));
+      log.debug( "histories: " + (t?"same":"different"));
       return t;
    }
 
@@ -460,43 +453,43 @@ public class History {
       boolean isMatch = true;
       boolean j = false;
       if(cont.isTerminal() && cont2.isTerminal()) {
-         Log.debug(DEBUG, "+ both histories terminate");
+         log.debug( "+ both histories terminate");
          return t;
       } else {
          for(int i = 0; t && i < cont.size(); ++i) {
             move1 = cont.get(i);
             if(i == 0 && move1 == null && cont2.get(0) == null) {
-               Log.debug(DEBUG, "+ both mainlines are null");
+               log.debug( "+ both mainlines are null");
                t = true;
             } else if((possibleMatches = cont2.find(move1)) == null) {
-               Log.debug(DEBUG, "- move (" + move1 + ") not found in continuation list of game 2");
+               log.debug( "- move (" + move1 + ") not found in continuation list of game 2");
                t = false;
             } else {
                found = false;
-               Log.debug(DEBUG, "+ (" + possibleMatches.length + ") possible matches of (" + move1 + ")");
+               log.debug( "+ (" + possibleMatches.length + ") possible matches of (" + move1 + ")");
 
                int var12;
                for(var12 = 0; var12 < possibleMatches.length && !found; ++var12) {
                   move2 = possibleMatches[var12];
                   isMatch = move2 != null;
                   if(!isMatch) {
-                     Log.error(2, "- hmm, possible match was null?");
+                     log.error("- hmm, possible match was null?");
                   }
 
                   if(isMatch && checkAnno) {
                      isMatch = move1.getAnnotation() == move2.getAnnotation() || move1.getAnnotation() != null && move2.getAnnotation() != null && move1.getAnnotation().equals(move2.getAnnotation());
-                     Log.debug(DEBUG, (isMatch?"+":"-") + " [" + (var12 + 1) + "/" + possibleMatches.length + "] (" + move1 + ") annotation: " + (isMatch?"same":"different"));
+                     log.debug( (isMatch?"+":"-") + " [" + (var12 + 1) + "/" + possibleMatches.length + "] (" + move1 + ") annotation: " + (isMatch?"same":"different"));
                   }
 
                   if(isMatch && checkAnno) {
                      isMatch = move1.getPrenotation() == move2.getPrenotation() || move1.getPrenotation() != null && move2.getPrenotation() != null && move1.getPrenotation().equals(move2.getPrenotation());
-                     Log.debug(DEBUG, (isMatch?"+":"-") + " [" + (var12 + 1) + "/" + possibleMatches.length + "] (" + move1 + ") prenotation: " + (isMatch?"same":"different"));
+                     log.debug( (isMatch?"+":"-") + " [" + (var12 + 1) + "/" + possibleMatches.length + "] (" + move1 + ") prenotation: " + (isMatch?"same":"different"));
                   }
 
                   if(isMatch && checkAnno) {
                      isMatch = (move1.getResult() == null || move1.getResult().isUndecided()) && move2.getResult() == null || move2.getResult().isUndecided() || move1.getResult() != null && move2.getResult() != null && move1.getResult().equals(move2.getResult());
                      if(move1.getResult() != null || move2.getResult() != null) {
-                        Log.debug(DEBUG, (isMatch?"+":"-") + " [" + (var12 + 1) + "/" + possibleMatches.length + "] (" + move1 + ") result: " + (isMatch?"same":"different") + (move1.getResult() != null && move2.getResult() != null?"":" {" + (move1.getResult() == null?"null/undecided":"undecided/null") + "}"));
+                        log.debug( (isMatch?"+":"-") + " [" + (var12 + 1) + "/" + possibleMatches.length + "] (" + move1 + ") result: " + (isMatch?"same":"different") + (move1.getResult() != null && move2.getResult() != null?"":" {" + (move1.getResult() == null?"null/undecided":"undecided/null") + "}"));
                      }
                   }
 
@@ -504,7 +497,7 @@ public class History {
                   found = isMatch;
                }
 
-               Log.debug(DEBUG, "(" + move1 + ") continuation: " + (found?"[" + var12 + "/" + possibleMatches.length + "] matched":"no match found"));
+               log.debug( "(" + move1 + ") continuation: " + (found?"[" + var12 + "/" + possibleMatches.length + "] matched":"no match found"));
                t = found;
             }
          }

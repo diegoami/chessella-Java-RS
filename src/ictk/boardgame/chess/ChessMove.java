@@ -6,17 +6,12 @@ import ictk.boardgame.Move;
 import ictk.boardgame.OutOfTurnException;
 import ictk.boardgame.Result;
 import ictk.boardgame.UnverifiedMoveException;
-import ictk.boardgame.chess.ChessBoard;
-import ictk.boardgame.chess.ChessPiece;
-import ictk.boardgame.chess.ChessResult;
-import ictk.boardgame.chess.Pawn;
-import ictk.boardgame.chess.Queen;
-import ictk.boardgame.chess.Square;
-import ictk.util.Log;
+
+import org.apache.log4j.Logger;
 
 public class ChessMove extends Move {
 
-   public static long DEBUG = Log.Move;
+   private static Logger log = Logger.getLogger(ChessMove.class.getName());
    private boolean nullMove;
    public static final int CASTLE_QUEENSIDE = -1;
    public static final int CASTLE_KINGSIDE = 1;
@@ -175,9 +170,9 @@ public class ChessMove extends Move {
             this.piece = this.orig.piece;
          }
 
-         Log.debug(DEBUG, "executing move: " + this);
-         Log.debug2(DEBUG, this.piece.dump());
-         Log.debug2(DEBUG, this.board);
+         log.debug( "executing move: " + this);
+         log.debug( this.piece.dump());
+         log.debug( this.board);
          if(this.piece == null) {
             throw new IllegalMoveException("No piece to move.", this);
          }
@@ -187,16 +182,16 @@ public class ChessMove extends Move {
          }
 
          if(!this.verified && !this.piece.isLegalDest(this.dest)) {
-            Log.debug(DEBUG, "tried to execute move with illegal destination");
-            Log.debug2(DEBUG, "piece is: " + this.piece.dump());
-            Log.debug2(DEBUG, "dest is: " + this.dest);
+            log.debug( "tried to execute move with illegal destination");
+            log.debug( "piece is: " + this.piece.dump());
+            log.debug( "dest is: " + this.dest);
             throw new IllegalMoveException("Illegal move " + this, this);
          }
 
          this.casualty = this.dest.piece;
          if(this.piece.isPawn() && this.casualty == null && this.orig.file != this.dest.file) {
             this.casualty = this.board.getSquare((int)this.dest.file, (int)this.orig.rank).piece;
-            Log.debug(DEBUG, "enpassant encounterd: " + this + "orig: " + this.orig + " dest:" + this.dest + " casualty: " + this.casualty);
+            log.debug( "enpassant encounterd: " + this + "orig: " + this.orig + " dest:" + this.dest + " casualty: " + this.casualty);
          } else {
             this.board.enpassantFile = 0;
          }
@@ -275,13 +270,13 @@ public class ChessMove extends Move {
 
       this.verified = true;
       this.board.fireBoardEvent(1);
-      Log.debug(DEBUG, "execute successful");
-      Log.debug2(DEBUG, this.board);
+      log.debug( "execute successful");
+      log.debug( this.board);
    }
 
    protected void unexecute() {
-      Log.debug(DEBUG, "unexecuting move: " + this);
-      Log.debug2(DEBUG, this.board);
+      log.debug( "unexecuting move: " + this);
+      log.debug( this.board);
       if(!this.isNullMove()) {
          this.board.setEnPassantFile(this.prevEnPassantFile);
          if(this.piece.isKing() && this.piece.moveCount == 1) {
@@ -338,8 +333,8 @@ public class ChessMove extends Move {
       this.executed = false;
       this.board.staleLegalDests = true;
       this.board.fireBoardEvent(2);
-      Log.debug(DEBUG, "unexecute successful");
-      Log.debug2(DEBUG, this.board);
+      log.debug( "unexecute successful");
+      log.debug( this.board);
    }
 
    public boolean isLegal() {

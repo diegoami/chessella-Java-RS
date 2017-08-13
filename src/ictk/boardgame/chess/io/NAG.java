@@ -1,11 +1,12 @@
 package ictk.boardgame.chess.io;
 
-import ictk.util.Log;
+
 import java.util.Locale;
 import java.util.StringTokenizer;
+import org.apache.log4j.Logger;
 
 public class NAG {
-
+   private static Logger log = Logger.getLogger(NAG.class.getName());
    public static short MAX_NAG = 255;
    protected Locale locale;
 
@@ -69,7 +70,7 @@ public class NAG {
          try {
             nag1 = Short.parseShort(str.substring(1));
          } catch (NumberFormatException var3) {
-            Log.error(6, "NAG parsed a bad token: " + str.substring(1));
+            log.error("NAG parsed a bad token: " + str.substring(1));
          }
       }
 

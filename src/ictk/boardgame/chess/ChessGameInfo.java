@@ -5,12 +5,14 @@ import ictk.boardgame.Player;
 import ictk.boardgame.Result;
 import ictk.boardgame.chess.ChessPlayer;
 import ictk.boardgame.chess.ChessResult;
-import ictk.util.Log;
+
+import org.apache.log4j.Logger;
+
 import java.util.Enumeration;
 
 public class ChessGameInfo extends GameInfo {
 
-   public static final long DEBUG = Log.GameInfo;
+   private static Logger log = Logger.getLogger(ChessGameInfo.class.getName());
    protected String eco;
    protected int whiteRating;
    protected int blackRating;
@@ -101,59 +103,59 @@ public class ChessGameInfo extends GameInfo {
       } else if(obj != null && obj.getClass() == this.getClass()) {
          ChessGameInfo gi = (ChessGameInfo)obj;
          boolean t = true;
-         Log.debug(DEBUG, "checking for equality");
+         log.debug( "checking for equality");
          t = t && super.equals(obj);
          if(t) {
             t = t && this.timeControlInitial == gi.timeControlInitial;
             if(!t) {
-               Log.debug2(DEBUG, "tcInit: " + this.timeControlInitial + " / " + gi.timeControlInitial);
+               log.debug( "tcInit: " + this.timeControlInitial + " / " + gi.timeControlInitial);
             }
          }
 
          if(t) {
             t = t && this.timeControlIncrement == gi.timeControlIncrement;
             if(!t) {
-               Log.debug2(DEBUG, "tcIncr: " + this.timeControlIncrement + " / " + gi.timeControlIncrement);
+               log.debug( "tcIncr: " + this.timeControlIncrement + " / " + gi.timeControlIncrement);
             }
          }
 
          if(t) {
             t = t && (this.result == null && gi.result == null || this.result != null && this.result.equals(gi.result));
             if(!t) {
-               Log.debug2(DEBUG, "result: " + this.result + " / " + gi.result);
+               log.debug( "result: " + this.result + " / " + gi.result);
             }
          }
 
          if(t) {
             t = t && this.whiteRating == gi.whiteRating;
             if(!t) {
-               Log.debug2(DEBUG, "whiteRating: " + this.whiteRating + " / " + gi.whiteRating);
+               log.debug( "whiteRating: " + this.whiteRating + " / " + gi.whiteRating);
             }
          }
 
          if(t) {
             t = t && this.blackRating == gi.blackRating;
             if(!t) {
-               Log.debug2(DEBUG, "blackRating: " + this.blackRating + " / " + gi.blackRating);
+               log.debug( "blackRating: " + this.blackRating + " / " + gi.blackRating);
             }
          }
 
          if(t) {
             t = t && (this.eco == null && gi.eco == null || this.eco != null && this.eco.equals(gi.eco));
             if(!t) {
-               Log.debug2(DEBUG, "eco: " + this.eco + " / " + gi.eco);
+               log.debug( "eco: " + this.eco + " / " + gi.eco);
             }
          }
 
          if(t) {
             t = t && (this.props == null && gi.props == null || this.props != null && this.props.equals(gi.props));
             if(!t) {
-               Log.debug2(DEBUG, "aux: " + this.props + " / " + gi.props);
+               log.debug( "aux: " + this.props + " / " + gi.props);
             }
          }
 
          if(t) {
-            Log.debug2(DEBUG, "equal");
+            log.debug( "equal");
          }
 
          return t;

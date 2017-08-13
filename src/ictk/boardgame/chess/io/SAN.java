@@ -10,17 +10,15 @@ import ictk.boardgame.chess.ChessMove;
 import ictk.boardgame.chess.ChessPiece;
 import ictk.boardgame.chess.ChessResult;
 import ictk.boardgame.chess.Square;
-import ictk.boardgame.chess.io.ChessAnnotation;
-import ictk.boardgame.chess.io.ChessMoveNotation;
-import ictk.boardgame.chess.io.NAG;
-import ictk.util.Log;
+import org.apache.log4j.Logger;
+
 import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class SAN extends ChessMoveNotation {
 
-   public static final long DEBUG = ChessMoveNotation.DEBUG;
+   private static Logger log = Logger.getLogger(SAN.class.getName());
    protected static final Pattern defaultMovePattern = getLocalePattern(PIECE_SETS[0], FILE_SETS[0], RANK_SETS[0]);
    protected static final NAG nag = new NAG();
    protected Pattern movePattern;
@@ -71,10 +69,10 @@ public class SAN extends ChessMoveNotation {
 
    public Move stringToMove(Board b, String s) throws AmbiguousChessMoveException, IllegalMoveException {
       if(b == null) {
-         Log.debug(DEBUG, "cannot associate a move with a null ChessBoard");
+         log.debug("cannot associate a move with a null ChessBoard");
          throw new IllegalArgumentException("Cannot associate a move with a null ChessBoard");
       } else if(!(b instanceof ChessBoard)) {
-         Log.debug(DEBUG, "non ChessBoard send to stringToMove");
+         log.debug("non ChessBoard send to stringToMove");
          return null;
       } else {
          ChessBoard board = (ChessBoard)b;
@@ -95,7 +93,7 @@ public class SAN extends ChessMoveNotation {
             Square dest = null;
             result = this.movePattern.matcher(s);
             if(result.find()) {
-               Log.debug(DEBUG, "regex result for: " + s, result);
+               log.debug("regex result for: " + s + " : "+ result);
                if(!result.group(1).equals("O-O-O") && !result.group(1).equals("0-0-0")) {
                   if(!result.group(1).equals("O-O") && !result.group(1).equals("0-0")) {
                      if(result.group(2) != null) {
@@ -191,7 +189,7 @@ public class SAN extends ChessMoveNotation {
          if(m == null) {
             throw new NullPointerException("can\'t convert null move to string");
          } else {
-            Log.debug(DEBUG, "move: " + move + " showSuffix?: " + showSuffix);
+            log.debug("move: " + move + " showSuffix?: " + showSuffix);
             StringBuffer sb = new StringBuffer();
             char piece = this.pieceToChar(m.getChessPiece());
             int[] coords = m.getCoordinates();

@@ -1,15 +1,15 @@
 package ictk.boardgame;
 
-import ictk.boardgame.Player;
-import ictk.boardgame.Result;
-import ictk.util.Log;
+
+import org.apache.log4j.Logger;
+
 import java.util.Calendar;
 import java.util.Enumeration;
 import java.util.Properties;
 
 public abstract class GameInfo {
 
-   public static final long DEBUG = Log.GameInfo;
+   private static Logger log = Logger.getLogger(GameInfo.class.getName());
    public Properties props = new Properties();
    protected Player[] players;
    protected Calendar date;
@@ -172,14 +172,14 @@ public abstract class GameInfo {
       } else if(o != null && o.getClass() == this.getClass()) {
          GameInfo gi = (GameInfo)o;
          boolean t = true;
-         Log.debug(DEBUG, "checking for equality");
+         log.debug( "checking for equality");
          if(t && this.players == gi.players) {
             t = true;
          } else if(t && this.players != null && gi.players != null && this.players.length == gi.players.length) {
             for(int i = 0; t && i < this.players.length; ++i) {
                t = t && this.isSame(this.players[i], gi.players[i]);
                if(!t) {
-                  Log.debug2(DEBUG, "players[" + i + "]: " + this.players[i] + " / " + gi.players[i]);
+                  log.debug( "players[" + i + "]: " + this.players[i] + " / " + gi.players[i]);
                }
             }
          }
@@ -187,47 +187,47 @@ public abstract class GameInfo {
          if(t) {
             t = t && this.isSame(this.event, gi.event);
             if(!t) {
-               Log.debug2(DEBUG, "event: " + this.event + " / " + gi.event);
+               log.debug( "event: " + this.event + " / " + gi.event);
             }
          }
 
          if(t) {
             t = t && this.equalDates(gi.date);
             if(!t) {
-               Log.debug2(DEBUG, "date: " + this.date + " / " + gi.date);
+               log.debug( "date: " + this.date + " / " + gi.date);
             }
          }
 
          if(t) {
             t = t && this.isSame(this.round, gi.round);
             if(!t) {
-               Log.debug2(DEBUG, "round: " + this.round + " / " + gi.round);
+               log.debug( "round: " + this.round + " / " + gi.round);
             }
          }
 
          if(t) {
             t = t && this.isSame(this.subround, gi.subround);
             if(!t) {
-               Log.debug2(DEBUG, "subround: " + this.subround + " / " + gi.subround);
+               log.debug( "subround: " + this.subround + " / " + gi.subround);
             }
          }
 
          if(t) {
             t = t && this.isSame(this.result, gi.result);
             if(!t) {
-               Log.debug2(DEBUG, "result: " + this.result + " / " + gi.result);
+               log.debug( "result: " + this.result + " / " + gi.result);
             }
          }
 
          if(t) {
             t = t && this.isSame(this.props, gi.props);
             if(!t) {
-               Log.debug2(DEBUG, "aux: " + this.props + " / " + gi.props);
+               log.debug( "aux: " + this.props + " / " + gi.props);
             }
          }
 
          if(t) {
-            Log.debug2(DEBUG, "equal");
+            log.debug( "equal");
          }
 
          return t;

@@ -10,23 +10,18 @@ import ictk.boardgame.chess.ChessGame;
 import ictk.boardgame.chess.ChessGameInfo;
 import ictk.boardgame.chess.ChessMove;
 import ictk.boardgame.chess.ChessResult;
-import ictk.boardgame.chess.io.ChessAnnotation;
-import ictk.boardgame.chess.io.ChessMoveNotation;
-import ictk.boardgame.chess.io.ChessWriter;
-import ictk.boardgame.chess.io.FEN;
-import ictk.boardgame.chess.io.NAG;
-import ictk.boardgame.chess.io.SAN;
 import ictk.boardgame.io.MoveNotation;
-import ictk.util.Log;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.io.Writer;
 import java.util.Enumeration;
 import java.util.StringTokenizer;
+import org.apache.log4j.Logger;
 
 public class PGNWriter extends ChessWriter {
 
-   public static final long DEBUG = Log.GameWriter;
+   private static Logger log = Logger.getLogger(PGNWriter.class.getName());
+
    public static final int NO_GLYPH = 0;
    public static final int SYMBOLIC_AND_NUMERIC_GLYPH = 1;
    public static final int NUMERIC_GLYPH = 2;
@@ -122,10 +117,10 @@ public class PGNWriter extends ChessWriter {
    public void writeGame(Game game) throws IOException {
       ChessGame g = (ChessGame)game;
       if(g == null) {
-         Log.debug(DEBUG, "can\'t write a null game");
+         log.debug("can\'t write a null game");
          throw new NullPointerException("can\'t write null game");
       } else {
-         Log.debug(DEBUG, "Writing game");
+         log.debug("Writing game");
          g.getHistory().rewind();
          this.writeGameInfo(g.getGameInfo());
          if(!g.getBoard().isInitialPositionDefault()) {
@@ -148,7 +143,7 @@ public class PGNWriter extends ChessWriter {
       String site = null;
       String event = null;
       if(gi == null) {
-         Log.debug(DEBUG, "gameInfo is null, so writing default header");
+         log.debug("gameInfo is null, so writing default header");
       }
 
       if(gi != null) {
@@ -234,7 +229,7 @@ public class PGNWriter extends ChessWriter {
          }
       }
 
-      Log.debug(DEBUG, "writing gameInfo block to stream");
+      log.debug("writing gameInfo block to stream");
       this.print(sb);
    }
 
@@ -245,11 +240,11 @@ public class PGNWriter extends ChessWriter {
       ChessResult result = null;
       int num = history.getInitialMoveNumber();
       if(history == null) {
-         Log.debug(DEBUG, "can\'t write a null history");
+         log.debug("can\'t write a null history");
          throw new NullPointerException("can\'t write null history");
       } else {
          this.buffer = new StringBuffer(this.colWidth);
-         Log.debug(DEBUG, "walking the History move tree");
+         log.debug("walking the History move tree");
          this.walkMoveTreeBreadthFirst(history.getFirstAll(), num);
          walker = history.getFinalMove(true);
          if(walker != null) {
@@ -276,7 +271,7 @@ public class PGNWriter extends ChessWriter {
       short[] nags = (short[])null;
       StringBuffer sbtmp = new StringBuffer(12);
       ChessAnnotation anno = null;
-      Log.debug(DEBUG, "continuations(" + cont.size() + ")" + (cont.isTerminal()?" is ":" is not ") + "terminal");
+      log.debug("continuations(" + cont.size() + ")" + (cont.isTerminal()?" is ":" is not ") + "terminal");
       if(cont != null && !cont.isTerminal()) {
          ChessMove currMove = null;
          if(cont.get(0) != null) {
@@ -345,7 +340,7 @@ public class PGNWriter extends ChessWriter {
             }
 
             if(m != null && this.exportVariations && i > 0) {
-               Log.debug(DEBUG, m + " descending variation");
+               log.debug(m + " descending variation");
                this.walkMoveTreeBreadthFirst(m.getContinuationList(), num + (isBlackMove?1:0));
                this.formatOutput(")", 4);
                --this.variationsDeep;
@@ -355,7 +350,7 @@ public class PGNWriter extends ChessWriter {
 
          m = (ChessMove)cont.get(0);
          if(m != null) {
-            Log.debug(DEBUG, m + " descending mainline");
+            log.debug(m + " descending mainline");
             this.walkMoveTreeBreadthFirst(m.getContinuationList(), num + (isBlackMove?1:0));
          }
       }
@@ -365,7 +360,7 @@ public class PGNWriter extends ChessWriter {
    protected void formatOutput(String str, int type) {
       boolean spacer = this.buffer.length() != 0;
       int length = this.buffer.length() + str.length() + (spacer?1:0);
-      Log.debug(DEBUG, "[" + length + "/" + this.colWidth + "] " + "buffer(" + this.buffer.length() + ") + \"" + str + "\"(" + str.length() + ")");
+      log.debug("[" + length + "/" + this.colWidth + "] " + "buffer(" + this.buffer.length() + ") + \"" + str + "\"(" + str.length() + ")");
       if(this.indentVariations && type == 3 && this.variationsDeep > 0) {
          this.println(this.buffer.toString());
          this.buffer.delete(0, this.buffer.length());
@@ -411,10 +406,10 @@ public class PGNWriter extends ChessWriter {
          }
 
          this.buffer.append(str);
-         Log.debug(DEBUG, "appending: " + str);
+         log.debug("appending: " + str);
       } else if(type != 5) {
          this.println(this.buffer.toString());
-         Log.debug(DEBUG, "writing: " + this.buffer.toString());
+         log.debug("writing: " + this.buffer.toString());
          this.buffer.delete(0, this.buffer.length());
          if(this.indentVariations) {
             if(this.variationsDeep > 0) {
@@ -452,7 +447,7 @@ public class PGNWriter extends ChessWriter {
             this.buffer.append(tok);
             len = this.buffer.length();
          } else {
-            Log.debug(DEBUG, "writing: " + this.buffer.toString());
+            log.debug("writing: " + this.buffer.toString());
             this.println(this.buffer.toString());
             this.buffer.delete(0, this.buffer.length());
             if(this.indentComments) {

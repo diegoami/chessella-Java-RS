@@ -2,12 +2,11 @@ package ictk.boardgame.chess.io;
 
 import ictk.boardgame.chess.ChessPiece;
 import ictk.boardgame.io.MoveNotation;
-import ictk.util.Log;
+import org.apache.log4j.Logger;
 import java.util.Locale;
 
 public abstract class ChessMoveNotation implements MoveNotation {
-
-   public static final long DEBUG = Log.MoveNotation;
+   private static Logger log = Logger.getLogger(ChessMoveNotation.class.getName());
    public static final char[][] PIECE_SETS = new char[][]{{'P', 'N', 'B', 'R', 'Q', 'K'}, {'P', 'J', 'S', 'V', 'D', 'K'}, {'B', 'S', 'L', 'T', 'D', 'K'}, {'P', 'R', 'O', 'V', 'L', 'K'}, {'P', 'R', 'L', 'T', 'D', 'K'}, {'P', 'C', 'F', 'T', 'D', 'R'}, {'B', 'S', 'L', 'T', 'D', 'K'}, {'G', 'H', 'F', 'B', 'V', 'K'}, {'P', 'R', 'B', 'H', 'D', 'K'}, {'P', 'C', 'A', 'T', 'D', 'R'}, {'B', 'S', 'L', 'T', 'D', 'K'}, {'P', 'S', 'G', 'W', 'H', 'K'}, {'P', 'C', 'B', 'T', 'D', 'R'}, {'P', 'C', 'N', 'T', 'D', 'R'}, {'P', 'C', 'A', 'T', 'D', 'R'}, {'B', 'S', 'L', 'T', 'D', 'K'}, {'P', 'S', 'L', 'T', 'D', 'K'}};
    public static final char[][] FILE_SETS = new char[][]{{'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'}};
    public static final char[][] RANK_SETS = new char[][]{{'1', '2', '3', '4', '5', '6', '7', '8'}};
@@ -120,7 +119,7 @@ public abstract class ChessMoveNotation implements MoveNotation {
       }
 
       if(p == ChessPiece.NULL_PIECE) {
-         Log.debug(DEBUG, "unknown piece: <" + c + ">");
+         log.debug( "unknown piece: <" + c + ">");
          throw new ArrayIndexOutOfBoundsException("Unknown ChessPiece");
       } else {
          return p;
@@ -150,7 +149,7 @@ public abstract class ChessMoveNotation implements MoveNotation {
          c1 = this.pieceSet[0];
          break;
       default:
-         Log.debug(DEBUG, "unknown piece index: <" + p + ">");
+         log.debug( "unknown piece index: <" + p + ">");
          throw new ArrayIndexOutOfBoundsException("Unknown ChessPiece");
       }
 
@@ -170,7 +169,7 @@ public abstract class ChessMoveNotation implements MoveNotation {
       byte p1 = this.mapSetToNum(Character.toLowerCase(c), this.fileSet);
       if(p1 == 0) {
          if(c != 45 && c != 32) {
-            Log.debug(DEBUG, "unknown file: <" + c + ">");
+            log.debug( "unknown file: <" + c + ">");
             throw new ArrayIndexOutOfBoundsException("file out of range: " + c);
          } else {
             return p1;
@@ -185,7 +184,7 @@ public abstract class ChessMoveNotation implements MoveNotation {
       byte p1 = this.mapSetToNum(Character.toLowerCase(c), this.rankSet);
       if(p1 == 0) {
          if(c != 45 && c != 32) {
-            Log.debug(DEBUG, "unknown file: <" + c + ">");
+            log.debug( "unknown file: <" + c + ">");
             throw new ArrayIndexOutOfBoundsException("rank out of range: " + c);
          } else {
             return p1;
@@ -201,7 +200,7 @@ public abstract class ChessMoveNotation implements MoveNotation {
          char c1 = this.fileSet[i - 1];
          return c1;
       } else {
-         Log.debug(DEBUG, "file out of range: <" + i + ">");
+         log.debug( "file out of range: <" + i + ">");
          throw new ArrayIndexOutOfBoundsException("file out of range (" + i + ")");
       }
    }
@@ -212,7 +211,7 @@ public abstract class ChessMoveNotation implements MoveNotation {
          char c1 = this.rankSet[i - 1];
          return c1;
       } else {
-         Log.debug(DEBUG, "rank out of range: <" + i + ">");
+         log.debug( "rank out of range: <" + i + ">");
          throw new ArrayIndexOutOfBoundsException("rank out of range");
       }
    }
