@@ -52,21 +52,8 @@ public class PGNReader extends ChessReader {
          this.board = new ChessBoard();
       }
 
-      //try {
-         this.game = new ChessGame(this.gameInfo, this.board);
-         history = this.readHistory();
-      // catch (Exception var5) {
-      //   var5.printStackTrace();
- //        this.game = new ChessGame(this.gameInfo, this.board = new ChessBoard());
-
- //        try {
-   //         history = this.readHistory();
-     //    } catch (   Exception var4) {
-       //     System.out.println(this.gameInfo.toString());
-        //    var4.printStackTrace();
-        // }
-     // }
-
+      this.game = new ChessGame(this.gameInfo, this.board);
+      history = this.readHistory();
       return this.gameInfo == null && history == null?null:this.game;
    }
 
