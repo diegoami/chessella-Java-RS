@@ -245,8 +245,12 @@ public class GameDataObjDAO extends GenericDAO {
       }
 
       var3.append(" and gameDataObj.deleted = 0");
-      String var5 = "from com.amicabile.openingtrainer.model.dataobj.GameDataObj gameDataObj where ";
+      var3.append(" order by GAME_ID desc");
+
+
+       String var5 = "from com.amicabile.openingtrainer.model.dataobj.GameDataObj gameDataObj where ";
       var3.insert(0, var5);
+
       Query var6 = var2.createQuery(var3.toString());
       var6.setString("white", '%' + var1.getWhite() + '%');
       if(var1.isIgnoreColor()) {

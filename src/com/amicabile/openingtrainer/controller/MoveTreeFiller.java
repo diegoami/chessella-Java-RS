@@ -59,7 +59,21 @@ class MoveTreeFiller extends CallbackPGNWriter {
    }
 
    public MoveTreeFiller() {
-      this((OutputStream)System.out);
+      this(new OutputStream() {
+
+         public void write(int b) {
+            // do nothing
+         }
+
+         public void write(byte[] b, int off, int len) {
+            // do nothing
+         }
+
+         public void writeTo(OutputStream out) throws IOException {
+            // do nothing
+         }
+
+      });
    }
 
    public MoveTreeFiller(Writer _out) {

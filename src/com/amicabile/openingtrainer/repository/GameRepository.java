@@ -1,7 +1,9 @@
 package com.amicabile.openingtrainer.repository;
 
+import com.amicabile.openingtrainer.controller.OpeningTrainerControllerException;
 import com.amicabile.openingtrainer.dao.GameDataObjDAO;
 import com.amicabile.openingtrainer.model.dataobj.GameDataObj;
+import com.amicabile.openingtrainer.pgn.PGNException;
 import com.amicabile.openingtrainer.repository.GameSaver;
 import com.amicabile.support.LRUCache;
 import ictk.boardgame.AmbiguousMoveException;
@@ -100,42 +102,51 @@ public class GameRepository implements GameSaver {
       return gameDataObj;
    }
 
-   public Game getGame(long argBoard) {
+   public Game getGame(long argBoard) throws OpeningTrainerControllerException {
       Game game = null;
-
       try {
-         if(this.gameMap.containsKey(Long.valueOf(argBoard))) {
-            game = (Game)this.gameMap.get(Long.valueOf(argBoard));
+
+         if (this.gameMap.containsKey(Long.valueOf(argBoard))) {
+            game = (Game) this.gameMap.get(Long.valueOf(argBoard));
          } else {
             GameDataObj me = this.getGameDataObj(argBoard);
             game = this.getGameForGameDataObj(argBoard, me);
             this.gameMap.put(Long.valueOf(argBoard), game);
          }
-      } catch (IOException var5) {
-         log.error("IOException in getGame", var5);
-      } catch (Exception var6) {
-         log.error("Exception in getGame", var6);
+      } catch  (HibernateException he) {
+         log.error(he);
+         throw new OpeningTrainerControllerException(he);
+      } catch  (PGNException pe) {
+          log.error(pe);
+          throw new OpeningTrainerControllerException(pe);
       }
 
-      return game;
+       return game;
    }
 
    public GameDataObj getGameDataObj(long argBoard) throws HibernateException {
-      try {
-         GameDataObj e = this.gameDataObjDAO.getGameDataObj(argBoard);
-         return e;
-      } catch (HibernateException var4) {
-         log.error("HibernateException in getGameDataObj(" + argBoard + ")", var4);
-         return null;
-      }
+      GameDataObj e = this.gameDataObjDAO.getGameDataObj(argBoard);
+      return e;
+
    }
 
-   public Game getGameForGameDataObj(long argBoard, GameDataObj gameDataObj) throws InvalidGameFormatException, IllegalMoveException, AmbiguousMoveException, IOException {
-      String pgnstring = gameDataObj.getPgnstring();
-      StringReader sr = new StringReader(pgnstring);
-      PGNReader reader = new PGNReader(sr);
-      Game game = reader.readGame();
-      game.getGameInfo().getAuxilleryProperties().setProperty("GameId", String.valueOf(argBoard));
-      return game;
+   public Game getGameForGameDataObj(long argBoard, GameDataObj gameDataObj) throws PGNException {
+      try {
+         String pgnstring = gameDataObj.getPgnstring();
+         StringReader sr = new StringReader(pgnstring);
+         PGNReader reader = new PGNReader(sr);
+         Game game = reader.readGame();
+         game.getGameInfo().getAuxilleryProperties().setProperty("GameId", String.valueOf(argBoard));
+         return game;
+      } catch (IllegalMoveException ile) {
+         log.error(ile);
+         throw new PGNException(ile.getMessage());
+      } catch (AmbiguousMoveException ame) {
+         log.error(ame);
+         throw new PGNException(ame.getMessage());
+      } catch (IOException ioe) {
+         log.error(ioe);
+         throw new PGNException(ioe.getMessage());
+      }
    }
 }
