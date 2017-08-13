@@ -7,7 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b971658-e216-45b0-81b6-d64815f319e2" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/GameAction.java" afterPath="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/GameAction.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,55 +22,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PGNWriter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ictk/boardgame/chess/io/PGNWriter.java">
+      <file leaf-file-name="PGNReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ictk/boardgame/chess/io/PGNReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="57" column="9" lean-forward="false" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1972#1973#0" expanded="true" />
-                <element signature="e#1996#1997#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChessWriter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ictk/boardgame/chess/io/ChessWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-              <folding>
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameWriter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ictk/boardgame/io/GameWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-              <folding>
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrintWriter.class" pinned="false" current-in-tab="false">
-        <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/io/PrintWriter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4">
-              <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-              <folding>
-                <element signature="e#1059#1060#0" expanded="true" />
-                <element signature="e#1092#1093#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="299">
+              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/controller/MoveTreeFiller.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="379">
-              <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,17 +46,57 @@
         <entry file="file://$PROJECT_DIR$/resources/classes-dir/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="21" />
+              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hibernate.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/classes-dir/hibernate.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameAction.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/GameAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="360" column="77" lean-forward="false" selection-start-line="360" selection-start-column="77" selection-end-line="360" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PGNAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/pgn/PGNAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginAction-validation.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/LoginAction-validation.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -106,7 +106,7 @@
         <entry file="file://$PROJECT_DIR$/resources/classes-dir/xwork.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="34" column="51" lean-forward="true" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+              <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -118,19 +118,6 @@
             <state relative-caret-position="618">
               <caret line="88" column="41" lean-forward="false" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CallbackPGNWriter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/pgn/writer/CallbackPGNWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-              <folding>
-                <element signature="e#887#888#0" expanded="true" />
-                <element signature="e#911#912#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -200,7 +187,6 @@
         <option value="$PROJECT_DIR$/lib/xwork-1.1.3.jar!/com/opensymphony/xwork/DefaultActionInvocation.class" />
         <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/pgn/PGNExecution.java" />
         <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/pgn/PGNAdapter.java" />
-        <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/GameAction.java" />
         <option value="$PROJECT_DIR$/src/ictk/boardgame/AllTests.java" />
         <option value="$PROJECT_DIR$/src/ictk/boardgame/chess/io/SAN.java" />
         <option value="$PROJECT_DIR$/src/ictk/boardgame/chess/io/NAG.java" />
@@ -224,6 +210,7 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/xwork.xml" />
         <option value="$PROJECT_DIR$/resources/classes-dir/log4j.properties" />
         <option value="$PROJECT_DIR$/web/WEB-INF/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/GameAction.java" />
       </list>
     </option>
   </component>
@@ -395,6 +382,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="amicabile" type="462c0819:PsiDirectoryNode" />
               <item name="openingtrainer" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="webwork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="amicabile" type="462c0819:PsiDirectoryNode" />
+              <item name="openingtrainer" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="webwork" type="462c0819:PsiDirectoryNode" />
+              <item name="games" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="amicabile" type="462c0819:PsiDirectoryNode" />
+              <item name="openingtrainer" type="462c0819:PsiDirectoryNode" />
               <item name="freemarker" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -512,7 +518,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -769,23 +775,22 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19377000" />
+    <option name="totallyTimeSpent" value="21447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39664218" sideWeight="0.08355795" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3210913" sideWeight="0.08733153" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33026585" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25768194" sideWeight="0.14782609" order="1" side_tool="true" content_ui="tabs" x="65" y="52" width="928" height="1028" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25768194" sideWeight="0.6630603" order="1" side_tool="true" content_ui="tabs" x="65" y="52" width="928" height="1028" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.91266847" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.9088949" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44700944" sideWeight="0.48733154" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -793,10 +798,10 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39664218" sideWeight="0.91644204" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3210913" sideWeight="0.91266847" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25768194" sideWeight="0.8521739" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25768194" sideWeight="0.33693972" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959569" sideWeight="0.5133333" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41867787" sideWeight="0.48948786" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -868,12 +873,6 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/GameAction.java</url>
-          <line>247</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/GameAction.java</url>
           <line>249</line>
           <properties />
           <option name="timeStamp" value="3" />
@@ -920,37 +919,25 @@
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/GameAction.java</url>
+          <line>238</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ictk/boardgame/chess/io/FEN.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ictk/boardgame/chess/io/NAG.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ictk/boardgame/chess/io/ChessMoveNotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ictk/boardgame/chess/ChessGameInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -959,53 +946,53 @@
         <state relative-caret-position="214">
           <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8239#8240#0" expanded="true" />
-            <element signature="e#8295#8296#0" expanded="true" />
-            <element signature="e#9757#9758#0" expanded="true" />
-            <element signature="e#9812#9813#0" expanded="true" />
-            <element signature="e#17174#17175#0" expanded="true" />
-            <element signature="e#17225#17226#0" expanded="true" />
-            <element signature="e#17288#17289#0" expanded="true" />
-            <element signature="e#17340#17341#0" expanded="true" />
-            <element signature="e#19016#19017#0" expanded="true" />
-            <element signature="e#19052#19053#0" expanded="true" />
-            <element signature="e#19252#19253#0" expanded="true" />
-            <element signature="e#19298#19299#0" expanded="true" />
-            <element signature="e#27025#27026#0" expanded="true" />
-            <element signature="e#27082#27083#0" expanded="true" />
-            <element signature="e#27132#27133#0" expanded="true" />
-            <element signature="e#27190#27191#0" expanded="true" />
-            <element signature="e#27239#27240#0" expanded="true" />
-            <element signature="e#27296#27297#0" expanded="true" />
-            <element signature="e#27346#27347#0" expanded="true" />
-            <element signature="e#27404#27405#0" expanded="true" />
-            <element signature="e#27460#27461#0" expanded="true" />
-            <element signature="e#27512#27513#0" expanded="true" />
-            <element signature="e#27569#27570#0" expanded="true" />
-            <element signature="e#27622#27623#0" expanded="true" />
-            <element signature="e#27678#27679#0" expanded="true" />
-            <element signature="e#27730#27731#0" expanded="true" />
-            <element signature="e#27787#27788#0" expanded="true" />
-            <element signature="e#27840#27841#0" expanded="true" />
-            <element signature="e#27877#27878#0" expanded="true" />
-            <element signature="e#27915#27916#0" expanded="true" />
-            <element signature="e#28179#28180#0" expanded="true" />
-            <element signature="e#28229#28230#0" expanded="true" />
-            <element signature="e#28406#28407#0" expanded="true" />
-            <element signature="e#28479#28480#0" expanded="true" />
-            <element signature="e#28520#28521#0" expanded="true" />
-            <element signature="e#28555#28556#0" expanded="true" />
-            <element signature="e#28602#28603#0" expanded="true" />
-            <element signature="e#28634#28635#0" expanded="true" />
-            <element signature="e#28680#28681#0" expanded="true" />
-            <element signature="e#28720#28721#0" expanded="true" />
-            <element signature="e#28760#28761#0" expanded="true" />
-            <element signature="e#28795#28796#0" expanded="true" />
-            <element signature="e#28843#28844#0" expanded="true" />
-            <element signature="e#28892#28893#0" expanded="true" />
-            <element signature="e#29538#29539#0" expanded="true" />
-            <element signature="e#29572#29573#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#8239#8240#0" expanded="false" />
+            <element signature="e#8295#8296#0" expanded="false" />
+            <element signature="e#9757#9758#0" expanded="false" />
+            <element signature="e#9812#9813#0" expanded="false" />
+            <element signature="e#17174#17175#0" expanded="false" />
+            <element signature="e#17225#17226#0" expanded="false" />
+            <element signature="e#17288#17289#0" expanded="false" />
+            <element signature="e#17340#17341#0" expanded="false" />
+            <element signature="e#19016#19017#0" expanded="false" />
+            <element signature="e#19052#19053#0" expanded="false" />
+            <element signature="e#19252#19253#0" expanded="false" />
+            <element signature="e#19298#19299#0" expanded="false" />
+            <element signature="e#27025#27026#0" expanded="false" />
+            <element signature="e#27082#27083#0" expanded="false" />
+            <element signature="e#27132#27133#0" expanded="false" />
+            <element signature="e#27190#27191#0" expanded="false" />
+            <element signature="e#27239#27240#0" expanded="false" />
+            <element signature="e#27296#27297#0" expanded="false" />
+            <element signature="e#27346#27347#0" expanded="false" />
+            <element signature="e#27404#27405#0" expanded="false" />
+            <element signature="e#27460#27461#0" expanded="false" />
+            <element signature="e#27512#27513#0" expanded="false" />
+            <element signature="e#27569#27570#0" expanded="false" />
+            <element signature="e#27622#27623#0" expanded="false" />
+            <element signature="e#27678#27679#0" expanded="false" />
+            <element signature="e#27730#27731#0" expanded="false" />
+            <element signature="e#27787#27788#0" expanded="false" />
+            <element signature="e#27840#27841#0" expanded="false" />
+            <element signature="e#27877#27878#0" expanded="false" />
+            <element signature="e#27915#27916#0" expanded="false" />
+            <element signature="e#28179#28180#0" expanded="false" />
+            <element signature="e#28229#28230#0" expanded="false" />
+            <element signature="e#28406#28407#0" expanded="false" />
+            <element signature="e#28479#28480#0" expanded="false" />
+            <element signature="e#28520#28521#0" expanded="false" />
+            <element signature="e#28555#28556#0" expanded="false" />
+            <element signature="e#28602#28603#0" expanded="false" />
+            <element signature="e#28634#28635#0" expanded="false" />
+            <element signature="e#28680#28681#0" expanded="false" />
+            <element signature="e#28720#28721#0" expanded="false" />
+            <element signature="e#28760#28761#0" expanded="false" />
+            <element signature="e#28795#28796#0" expanded="false" />
+            <element signature="e#28843#28844#0" expanded="false" />
+            <element signature="e#28892#28893#0" expanded="false" />
+            <element signature="e#29538#29539#0" expanded="false" />
+            <element signature="e#29572#29573#0" expanded="false" />
             <marker date="1502656455403" expanded="false" signature="33607:33616" ph=" { " />
             <marker date="1502656455403" expanded="false" signature="33661:33666" ph=" }" />
             <marker date="1502656455403" expanded="false" signature="33704:33713" ph=" { " />
@@ -1056,7 +1043,7 @@
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <marker date="1502656455403" expanded="false" signature="5328:5337" ph=" { " />
             <marker date="1502656455403" expanded="false" signature="5379:5384" ph=" }" />
           </folding>
@@ -1068,8 +1055,8 @@
         <state relative-caret-position="126">
           <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding>
-            <element signature="e#11963#11964#0" expanded="true" />
-            <element signature="e#11992#11993#0" expanded="true" />
+            <element signature="e#11963#11964#0" expanded="false" />
+            <element signature="e#11992#11993#0" expanded="false" />
             <marker date="1502656455403" expanded="false" signature="15397:15406" ph=" { " />
             <marker date="1502656455403" expanded="false" signature="15415:15420" ph=" }" />
           </folding>
@@ -1080,6 +1067,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1087,6 +1075,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1094,6 +1083,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1101,6 +1091,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1148,6 +1139,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1155,14 +1147,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
           <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ictk/boardgame/chess/io/PGNReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1187,6 +1171,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-52">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1194,6 +1179,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1201,6 +1187,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="222" column="4" lean-forward="false" selection-start-line="222" selection-start-column="4" selection-end-line="222" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1208,6 +1195,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1215,6 +1203,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1222,6 +1211,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1231,6 +1221,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
           <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1238,13 +1232,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/GameAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="278" column="37" lean-forward="false" selection-start-line="278" selection-start-column="37" selection-end-line="278" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1270,6 +1257,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1301,8 +1289,8 @@
         <state relative-caret-position="288">
           <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
           <folding>
-            <element signature="e#887#888#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="false" />
+            <element signature="e#911#912#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1322,7 +1310,7 @@
     <entry file="file://$PROJECT_DIR$/src/ictk/boardgame/io/GameWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <caret line="19" column="10" lean-forward="false" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding>
             <element signature="e#459#460#0" expanded="true" />
             <element signature="e#483#484#0" expanded="true" />
@@ -1355,7 +1343,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/controller/MoveTreeFiller.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
-          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1363,7 +1351,7 @@
     <entry file="file://$PROJECT_DIR$/resources/classes-dir/xwork.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="34" column="51" lean-forward="true" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+          <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -1379,15 +1367,55 @@
     <entry file="file://$PROJECT_DIR$/resources/classes-dir/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="21" />
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/LoginAction-validation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/classes-dir/hibernate.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ictk/boardgame/chess/io/PGNReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/pgn/PGNAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/GameAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="360" column="77" lean-forward="false" selection-start-line="360" selection-start-column="77" selection-end-line="360" selection-end-column="77" />
           <folding />
         </state>
       </provider>
@@ -1399,10 +1427,10 @@
         <settings>
           <artifact-editor>
             <show-content>
+              <type id="artifact" />
               <type id="jpa-descriptors" />
               <type id="library" />
               <type id="javaee-facet-resources" />
-              <type id="artifact" />
             </show-content>
           </artifact-editor>
           <last-edited>Chessella-Restored:war exploded</last-edited>
@@ -1410,7 +1438,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.7198276" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
