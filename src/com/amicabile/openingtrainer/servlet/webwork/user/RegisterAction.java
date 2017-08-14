@@ -4,6 +4,8 @@ import com.amicabile.openingtrainer.dao.UserDAO;
 import com.amicabile.openingtrainer.model.dataobj.User;
 import com.opensymphony.xwork.ActionContext;
 import com.opensymphony.xwork.ActionSupport;
+
+import java.io.IOException;
 import java.util.Map;
 import net.sf.hibernate.HibernateException;
 import org.apache.commons.lang.StringUtils;
@@ -52,7 +54,11 @@ public class RegisterAction extends ActionSupport {
          } catch (HibernateException var5) {
             log.error("HibernateException in execute", var5);
             this.addActionError("User could not be created : " + var5.getMessage());
+         } catch (IOException var6) {
+            log.error("IOException in execute", var6);
+            this.addActionError("User could not be created : " + var6.getMessage());
          }
+
       }
 
       return inputOk?"success":"input";

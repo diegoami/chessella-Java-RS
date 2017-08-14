@@ -4,7 +4,14 @@ import com.amicabile.openingtrainer.config.ShowBoardRulePrototypes;
 import com.amicabile.openingtrainer.dao.GenericDAO;
 import com.amicabile.openingtrainer.model.dataobj.GameDataObj;
 import com.amicabile.openingtrainer.model.dataobj.User;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.List;
+import java.util.Properties;
+
 import net.sf.hibernate.HibernateException;
 import net.sf.hibernate.Query;
 import net.sf.hibernate.Session;
@@ -16,10 +23,21 @@ public class UserDAO extends GenericDAO {
    private static Logger log = Logger.getLogger(UserDAO.class.getName());
    private static UserDAO userDAO = new UserDAO();
 
-
    public static UserDAO getInstance() {
       return userDAO;
    }
+
+   private String retrieveSalt() throws IOException{
+
+
+      ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
+      InputStream input = classLoader.getResourceAsStream("chessella.properties");
+
+      Properties properties = new Properties();
+      properties.load(input);
+      return properties.getProperty("saltvalue");
+   }
+
 
    public void updateUser(User user) throws HibernateException {
       log.info("Updating user " + user);
@@ -42,11 +60,16 @@ public class UserDAO extends GenericDAO {
 
    }
 
-   public User createUser(String username, String password, String email) throws HibernateException {
+   public User createUser(String username, String password, String email) throws HibernateException, IOException {
       this.getUser(username);
+
+
       User user = new User();
       user.setUsername(username);
-      user.setPassword(password);
+
+      String encPassword = getEncryptedPassword(password);
+
+      user.setPassword(encPassword );
       user.setEmail(email);
       user.setShowBoardRule(ShowBoardRulePrototypes.DEFAULT_RULE);
       Session session = this.createSession();
@@ -68,6 +91,23 @@ public class UserDAO extends GenericDAO {
       }
 
       return user;
+   }
+
+   public String getEncryptedPassword(String md5) throws  IOException {
+      try {
+         String salt = retrieveSalt();
+         String passwordSalted = salt + md5;
+         MessageDigest md = MessageDigest.getInstance("MD5");
+         byte[] array = md.digest(passwordSalted.getBytes());
+         StringBuffer sb = new StringBuffer();
+         for (int i = 0; i < array.length; ++i) {
+            sb.append(Integer.toHexString((array[i] & 0xFF) | 0x100).substring(1, 3));
+         }
+         return sb.toString();
+      } catch (NoSuchAlgorithmException nsae) {
+         log.error("This never happens "+nsae.getMessage());
+         return md5;
+      }
    }
 
    public User getUser(long id) throws HibernateException {

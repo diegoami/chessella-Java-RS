@@ -358,7 +358,7 @@ public class GameAction extends ActionSupport {
       if (this.chessGameGroup.getGameList().size() > maxgames) {
          throw new PGNException("You cannot add more than " + this.getUser().getMaxgames() + " games ");
       } else if (this.chessGameGroup.getGameList().size() == 0) {
-         throw new PGNException("No valid game in PGN format was recognized ");
+         throw new PGNException("No valid game in PGN format was recognized");
       } else {
          Iterator var5 = this.chessGameGroup.getGameList().iterator();
 

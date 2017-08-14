@@ -5,6 +5,8 @@ import com.amicabile.openingtrainer.model.dataobj.User;
 import com.opensymphony.xwork.ActionContext;
 import com.opensymphony.xwork.ActionSupport;
 import com.opensymphony.xwork.validator.ValidationException;
+
+import java.io.IOException;
 import java.util.Map;
 import net.sf.hibernate.HibernateException;
 import org.apache.commons.lang.StringUtils;
@@ -57,8 +59,8 @@ public class LoginAction extends ActionSupport {
                this.addActionError("User " + this.username + " not found ");
                return "input";
             } else {
-               user.getPassword();
-               if(this.password.equals(user.getPassword())) {
+
+               if(e.getEncryptedPassword(password).equals(user.getPassword())) {
                   Map session = ActionContext.getContext().getSession();
                   session.put("user", user);
                   return "success";
@@ -70,6 +72,10 @@ public class LoginAction extends ActionSupport {
          } catch (HibernateException var4) {
             log.error("HibernateException in execute", var4);
             this.addActionError("User could not be logged in: " + var4.getMessage());
+            return "error";
+         } catch (IOException var5) {
+            log.error("IOException in execute", var5);
+            this.addActionError("User could not be logged in: " + var5.getMessage());
             return "error";
          }
       }
