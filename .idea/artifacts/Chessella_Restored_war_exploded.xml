@@ -6,7 +6,6 @@
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="Chessella-Restored" />
-          <element id="dir-copy" path="$PROJECT_DIR$/resources/classes-dir" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="chessella-libs" />

@@ -6,11 +6,23 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b971658-e216-45b0-81b6-d64815f319e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="6b971658-e216-45b0-81b6-d64815f319e2" name="Default" comment="Trying to reduce memory requirements - nulling pgnString">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/classes-dir/RegisterAction-validation.xml" afterPath="$PROJECT_DIR$/resources/RegisterAction-validation.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/classes-dir/commons-logging.properties" afterPath="$PROJECT_DIR$/resources/commons-logging.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/classes-dir/decorators.xml" afterPath="$PROJECT_DIR$/resources/decorators.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/classes-dir/dwr.xml" afterPath="$PROJECT_DIR$/resources/dwr.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/classes-dir/hibernate.properties" afterPath="$PROJECT_DIR$/resources/hibernate.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/classes-dir/log4j.properties" afterPath="$PROJECT_DIR$/resources/log4j.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/classes-dir/velocity.properties" afterPath="$PROJECT_DIR$/resources/velocity.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/classes-dir/xwork.xml" afterPath="$PROJECT_DIR$/resources/xwork.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/tools/compileclass.sh" afterPath="$PROJECT_DIR$/tools/compileclass.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/tools/create_ff.py" afterPath="$PROJECT_DIR$/tools/create_ff.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/tools/fernflower.sh" afterPath="$PROJECT_DIR$/tools/fernflower.sh" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/tools/fernflower_2.sh" afterPath="$PROJECT_DIR$/tools/fernflower_2.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Chessella_Restored_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Chessella_Restored_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/GameAction.java" afterPath="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/GameAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chessella-Restored.iml" afterPath="$PROJECT_DIR$/Chessella-Restored.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/amicabile/openingtrainer/dao/GameDataObjDAO.java" afterPath="$PROJECT_DIR$/src/com/amicabile/openingtrainer/dao/GameDataObjDAO.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,98 +37,94 @@
       <file leaf-file-name="PGNReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ictk/boardgame/chess/io/PGNReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+            <state relative-caret-position="203">
+              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoveTreeFiller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/controller/MoveTreeFiller.java">
+      <file leaf-file-name="GameDataObj.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/model/dataobj/GameDataObj.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+            <state relative-caret-position="269">
+              <caret line="77" column="4" lean-forward="false" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/classes-dir/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hibernate.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/classes-dir/hibernate.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameAction.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameAction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/GameAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="360" column="77" lean-forward="false" selection-start-line="360" selection-start-column="77" selection-end-line="360" selection-end-column="77" />
+            <state relative-caret-position="131">
+              <caret line="238" column="0" lean-forward="false" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PGNAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/pgn/PGNAdapter.java">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/model/dataobj/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+            <state relative-caret-position="72">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginAction-validation.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/LoginAction-validation.xml">
+      <file leaf-file-name="GameRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/repository/GameRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="185">
+              <caret line="116" column="22" lean-forward="false" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xwork.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/classes-dir/xwork.xml">
+      <file leaf-file-name="GameDataObjDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/dao/GameDataObjDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+            <state relative-caret-position="180">
+              <caret line="161" column="7" lean-forward="true" selection-start-line="161" selection-start-column="7" selection-end-line="161" selection-end-column="7" />
+              <folding>
+                <element signature="e#1405#1406#0" expanded="true" />
+                <element signature="e#1439#1440#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dwr.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/dwr.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xwork.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/xwork.xml">
+      <file leaf-file-name="GameDataObj.hbm.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/model/dataobj/GameDataObj.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="88" column="41" lean-forward="false" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
+            <state relative-caret-position="229">
+              <caret line="88" column="4" lean-forward="false" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
+              <folding>
+                <marker date="1502746068082" expanded="true" signature="3163:3273" ph="..." />
+                <marker date="1502746068082" expanded="true" signature="3280:3669" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/LoginAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -156,6 +164,9 @@
       <find>defaultCompo</find>
       <find>&lt;interceptor-ref name=&quot;defaultComponentStack&quot;/&gt;</find>
       <find>ExportV</find>
+      <find>login</find>
+      <find>annotatio</find>
+      <find>LastGames</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -201,7 +212,6 @@
         <option value="$PROJECT_DIR$/web/games/notationtemplate.ftl" />
         <option value="$PROJECT_DIR$/src/ictk/boardgame/chess/io/PGNReader.java" />
         <option value="$PROJECT_DIR$/web/README.md" />
-        <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/dao/GameDataObjDAO.java" />
         <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/repository/GameRepository.java" />
         <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/dwr/BoardForwarder.java" />
         <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/model/board/VelocityBoard.java" />
@@ -210,7 +220,14 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/xwork.xml" />
         <option value="$PROJECT_DIR$/resources/classes-dir/log4j.properties" />
         <option value="$PROJECT_DIR$/web/WEB-INF/log4j.properties" />
+        <option value="$PROJECT_DIR$/resources/classes-dir/chessella.properties" />
         <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/GameAction.java" />
+        <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/model/dataobj/User.java" />
+        <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/LoginAction.java" />
+        <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/RegisterAction.java" />
+        <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/model/dataobj/GameDataObj.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/dao/GameDataObjDAO.java" />
       </list>
     </option>
   </component>
@@ -276,176 +293,7 @@
             <path>
               <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
               <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="amicabile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="amicabile" type="462c0819:PsiDirectoryNode" />
-              <item name="openingtrainer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="amicabile" type="462c0819:PsiDirectoryNode" />
-              <item name="openingtrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="amicabile" type="462c0819:PsiDirectoryNode" />
-              <item name="openingtrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="amicabile" type="462c0819:PsiDirectoryNode" />
-              <item name="openingtrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="board" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="amicabile" type="462c0819:PsiDirectoryNode" />
-              <item name="openingtrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="dataobj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="amicabile" type="462c0819:PsiDirectoryNode" />
-              <item name="openingtrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="notation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="amicabile" type="462c0819:PsiDirectoryNode" />
-              <item name="openingtrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="paging" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="amicabile" type="462c0819:PsiDirectoryNode" />
-              <item name="openingtrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="pgn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="amicabile" type="462c0819:PsiDirectoryNode" />
-              <item name="openingtrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="pgn" type="462c0819:PsiDirectoryNode" />
-              <item name="writer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="amicabile" type="462c0819:PsiDirectoryNode" />
-              <item name="openingtrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="amicabile" type="462c0819:PsiDirectoryNode" />
-              <item name="openingtrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="amicabile" type="462c0819:PsiDirectoryNode" />
-              <item name="openingtrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-              <item name="webwork" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="amicabile" type="462c0819:PsiDirectoryNode" />
-              <item name="openingtrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-              <item name="webwork" type="462c0819:PsiDirectoryNode" />
-              <item name="games" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="amicabile" type="462c0819:PsiDirectoryNode" />
-              <item name="openingtrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="freemarker" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="amicabile" type="462c0819:PsiDirectoryNode" />
-              <item name="openingtrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="boardgame" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="boardgame" type="462c0819:PsiDirectoryNode" />
-              <item name="chess" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="boardgame" type="462c0819:PsiDirectoryNode" />
-              <item name="chess" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="boardgame" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="boardgame" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="cli" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
@@ -469,6 +317,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -507,25 +356,27 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../scala-exercises" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/Chessella_Restored_war_exploded/WEB-INF/classes/com/amicabile/openingtrainer/dao/GameDataObjDAO.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/resources" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/WEB-INF" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -623,7 +474,7 @@
       <listeners />
     </configuration>
     <configuration name="chessella" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.16" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="Chessella-Restored:war exploded">
           <settings>
@@ -721,6 +572,7 @@
       <workItem from="1502437584846" duration="15000" />
       <workItem from="1502570084568" duration="4979000" />
       <workItem from="1502650671243" duration="8894000" />
+      <workItem from="1502736862631" duration="8381000" />
     </task>
     <task id="LOCAL-00001" summary="Included artifacts information and other stuff">
       <created>1502226684845</created>
@@ -771,74 +623,62 @@
       <option name="project" value="LOCAL" />
       <updated>1502656830112</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Modified target, added excpetion in case there is no valid game">
+      <created>1502663647048</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1502663647048</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Passwords now (statically) salted and hashed">
+      <created>1502744541932</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1502744541932</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21447000" />
+    <option name="totallyTimeSpent" value="31159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3210913" sideWeight="0.08733153" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44700944" sideWeight="0.5169811" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33026585" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25768194" sideWeight="0.6630603" order="1" side_tool="true" content_ui="tabs" x="65" y="52" width="928" height="1028" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2" sideWeight="0.22580644" order="1" side_tool="true" content_ui="tabs" x="65" y="52" width="928" height="1028" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.9088949" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6149003" sideWeight="0.90512127" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44700944" sideWeight="0.48733154" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44700944" sideWeight="0.48301888" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3210913" sideWeight="0.91266847" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42287514" sideWeight="0.90512127" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25768194" sideWeight="0.33693972" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2" sideWeight="0.7741935" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959569" sideWeight="0.5133333" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41867787" sideWeight="0.48948786" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41867787" sideWeight="0.48733154" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.55299056" sideWeight="0.08355795" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33026585" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25768194" sideWeight="0.19248827" order="1" side_tool="true" content_ui="tabs" x="65" y="52" width="928" height="1028" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.91266847" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44700944" sideWeight="0.48733154" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.55299056" sideWeight="0.91644204" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25768194" sideWeight="0.80751175" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959569" sideWeight="0.5133333" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41867787" sideWeight="0.48948786" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -855,52 +695,14 @@
     <MESSAGE value="hotfix/chessella-1 now ictk also using log4j" />
     <MESSAGE value="hotfix/chessella-1 removed commented out code" />
     <MESSAGE value="Readme updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme updated" />
+    <MESSAGE value="Modified target, added excpetion in case there is no valid game" />
+    <MESSAGE value="Passwords now (statically) salted and hashed" />
+    <MESSAGE value="Trying to reduce memory requirements - nulling pgnString" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trying to reduce memory requirements - nulling pgnString" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/GameAction.java</url>
-          <line>233</line>
-          <properties />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/GameAction.java</url>
-          <line>261</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/GameAction.java</url>
-          <line>249</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/pgn/PGNAdapter.java</url>
-          <line>90</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/pgn/PGNAdapter.java</url>
-          <line>74</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ictk/boardgame/chess/io/PGNReader.java</url>
-          <line>54</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ictk/boardgame/chess/io/PGNReader.java</url>
-          <line>55</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/controller/MoveTreePrinter.java</url>
           <line>38</line>
@@ -914,197 +716,17 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/repository/GameRepository.java</url>
-          <line>108</line>
+          <url>file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/dao/UserDAO.java</url>
+          <line>71</line>
           <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/GameAction.java</url>
-          <line>238</line>
-          <properties />
-          <option name="timeStamp" value="18" />
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ictk/boardgame/chess/ChessGameInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ictk/boardgame/chess/ChessBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#8239#8240#0" expanded="false" />
-            <element signature="e#8295#8296#0" expanded="false" />
-            <element signature="e#9757#9758#0" expanded="false" />
-            <element signature="e#9812#9813#0" expanded="false" />
-            <element signature="e#17174#17175#0" expanded="false" />
-            <element signature="e#17225#17226#0" expanded="false" />
-            <element signature="e#17288#17289#0" expanded="false" />
-            <element signature="e#17340#17341#0" expanded="false" />
-            <element signature="e#19016#19017#0" expanded="false" />
-            <element signature="e#19052#19053#0" expanded="false" />
-            <element signature="e#19252#19253#0" expanded="false" />
-            <element signature="e#19298#19299#0" expanded="false" />
-            <element signature="e#27025#27026#0" expanded="false" />
-            <element signature="e#27082#27083#0" expanded="false" />
-            <element signature="e#27132#27133#0" expanded="false" />
-            <element signature="e#27190#27191#0" expanded="false" />
-            <element signature="e#27239#27240#0" expanded="false" />
-            <element signature="e#27296#27297#0" expanded="false" />
-            <element signature="e#27346#27347#0" expanded="false" />
-            <element signature="e#27404#27405#0" expanded="false" />
-            <element signature="e#27460#27461#0" expanded="false" />
-            <element signature="e#27512#27513#0" expanded="false" />
-            <element signature="e#27569#27570#0" expanded="false" />
-            <element signature="e#27622#27623#0" expanded="false" />
-            <element signature="e#27678#27679#0" expanded="false" />
-            <element signature="e#27730#27731#0" expanded="false" />
-            <element signature="e#27787#27788#0" expanded="false" />
-            <element signature="e#27840#27841#0" expanded="false" />
-            <element signature="e#27877#27878#0" expanded="false" />
-            <element signature="e#27915#27916#0" expanded="false" />
-            <element signature="e#28179#28180#0" expanded="false" />
-            <element signature="e#28229#28230#0" expanded="false" />
-            <element signature="e#28406#28407#0" expanded="false" />
-            <element signature="e#28479#28480#0" expanded="false" />
-            <element signature="e#28520#28521#0" expanded="false" />
-            <element signature="e#28555#28556#0" expanded="false" />
-            <element signature="e#28602#28603#0" expanded="false" />
-            <element signature="e#28634#28635#0" expanded="false" />
-            <element signature="e#28680#28681#0" expanded="false" />
-            <element signature="e#28720#28721#0" expanded="false" />
-            <element signature="e#28760#28761#0" expanded="false" />
-            <element signature="e#28795#28796#0" expanded="false" />
-            <element signature="e#28843#28844#0" expanded="false" />
-            <element signature="e#28892#28893#0" expanded="false" />
-            <element signature="e#29538#29539#0" expanded="false" />
-            <element signature="e#29572#29573#0" expanded="false" />
-            <marker date="1502656455403" expanded="false" signature="33607:33616" ph=" { " />
-            <marker date="1502656455403" expanded="false" signature="33661:33666" ph=" }" />
-            <marker date="1502656455403" expanded="false" signature="33704:33713" ph=" { " />
-            <marker date="1502656455403" expanded="false" signature="33759:33764" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ictk/util/Log.java" />
-    <entry file="file://$PROJECT_DIR$/src/ictk/boardgame/chess/ChessMove.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <marker date="1502656455403" expanded="false" signature="12403:12412" ph=" { " />
-            <marker date="1502656455403" expanded="false" signature="12431:12436" ph=" }" />
-            <marker date="1502656455403" expanded="false" signature="12470:12479" ph=" { " />
-            <marker date="1502656455403" expanded="false" signature="12501:12506" ph=" }" />
-            <marker date="1502656455403" expanded="false" signature="12540:12549" ph=" { " />
-            <marker date="1502656455403" expanded="false" signature="12571:12576" ph=" }" />
-            <marker date="1502656455403" expanded="false" signature="13629:13638" ph=" { " />
-            <marker date="1502656455403" expanded="false" signature="13657:13662" ph=" }" />
-            <marker date="1502656455403" expanded="false" signature="13701:13710" ph=" { " />
-            <marker date="1502656455403" expanded="false" signature="13725:13730" ph=" }" />
-            <marker date="1502656455403" expanded="false" signature="14412:14421" ph=" { " />
-            <marker date="1502656455403" expanded="false" signature="14442:14447" ph=" }" />
-            <marker date="1502656455403" expanded="false" signature="14490:14499" ph=" { " />
-            <marker date="1502656455403" expanded="false" signature="14521:14526" ph=" }" />
-            <marker date="1502656455403" expanded="false" signature="14558:14567" ph=" { " />
-            <marker date="1502656455403" expanded="false" signature="14588:14593" ph=" }" />
-            <marker date="1502656455403" expanded="false" signature="16906:16915" ph=" { " />
-            <marker date="1502656455403" expanded="false" signature="16932:16937" ph=" }" />
-            <marker date="1502656455403" expanded="false" signature="16967:16976" ph=" { " />
-            <marker date="1502656455403" expanded="false" signature="16993:16998" ph=" }" />
-            <marker date="1502656455403" expanded="false" signature="21232:21241" ph=" { " />
-            <marker date="1502656455403" expanded="false" signature="21268:21273" ph=" }" />
-            <marker date="1502656455403" expanded="false" signature="21301:21310" ph=" { " />
-            <marker date="1502656455403" expanded="false" signature="21328:21333" ph=" }" />
-            <marker date="1502656455403" expanded="false" signature="21365:21374" ph=" { " />
-            <marker date="1502656455403" expanded="false" signature="21446:21455" ph=" { " />
-            <marker date="1502656455403" expanded="false" signature="21480:21485" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ictk/boardgame/GameInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1502656455403" expanded="false" signature="5328:5337" ph=" { " />
-            <marker date="1502656455403" expanded="false" signature="5379:5384" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ictk/boardgame/History.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#11963#11964#0" expanded="false" />
-            <element signature="e#11992#11993#0" expanded="false" />
-            <marker date="1502656455403" expanded="false" signature="15397:15406" ph=" { " />
-            <marker date="1502656455403" expanded="false" signature="15415:15420" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/games/gamelisttemplate.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/games/headertemplate.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/games/pgntemplate.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/games/pgnwork.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="10" column="61" lean-forward="false" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/hibernate2.jar!/net/sf/hibernate/Query.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1120,14 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/model/dataobj/GameDataObj.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="41" column="73" lean-forward="true" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/amicabile/support/SimpleReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1135,35 +749,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/dao/GameDataObjDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="40" column="36" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/repository/GameRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="139" column="0" lean-forward="false" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/xwork-1.1.3.jar!/com/opensymphony/xwork/DefaultActionInvocation.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1656">
           <caret line="161" column="40" lean-forward="false" selection-start-line="161" selection-start-column="40" selection-end-line="161" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1222,8 +811,8 @@
         <state relative-caret-position="269">
           <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
           <folding>
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="false" />
+            <element signature="e#985#986#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1280,7 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1300,9 +888,9 @@
         <state relative-caret-position="292">
           <caret line="57" column="9" lean-forward="false" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1972#1973#0" expanded="true" />
-            <element signature="e#1996#1997#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1972#1973#0" expanded="false" />
+            <element signature="e#1996#1997#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1322,10 +910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4">
           <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-          <folding>
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1092#1093#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1334,40 +918,24 @@
         <state relative-caret-position="162">
           <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
           <folding>
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="false" />
+            <element signature="e#307#308#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/controller/MoveTreeFiller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
+        <state relative-caret-position="828">
           <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/classes-dir/xwork.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/xwork.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
+        <state relative-caret-position="1584">
           <caret line="88" column="41" lean-forward="false" selection-start-line="88" selection-start-column="41" selection-end-line="88" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/classes-dir/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1380,6 +948,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/velocity.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1388,34 +964,168 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/classes-dir/hibernate.properties">
+    <entry file="file://$PROJECT_DIR$/resources/commons-logging.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/xwork.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/hibernate.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/security/MessageDigest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/chessella.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/RegisterAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="104" column="10" lean-forward="true" selection-start-line="104" selection-start-column="10" selection-end-line="104" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/model/dataobj/User.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/model/dataobj/GameDataObj.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="88" column="4" lean-forward="false" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
+          <folding>
+            <marker date="1502746068082" expanded="true" signature="3163:3273" ph="..." />
+            <marker date="1502746068082" expanded="true" signature="3280:3669" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/model/dataobj/GameDataObj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="77" column="4" lean-forward="false" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/LoginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ictk/boardgame/chess/io/PGNReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/pgn/PGNAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        <state relative-caret-position="203">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/GameAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="360" column="77" lean-forward="false" selection-start-line="360" selection-start-column="77" selection-end-line="360" selection-end-column="77" />
+        <state relative-caret-position="131">
+          <caret line="238" column="0" lean-forward="false" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/Chessella_Restored_war_exploded/WEB-INF/classes/com/amicabile/openingtrainer/dao/GameDataObjDAO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2052">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/repository/GameRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="116" column="22" lean-forward="false" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/pgn/PGNAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/model/dataobj/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/dao/GameDataObjDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="161" column="7" lean-forward="true" selection-start-line="161" selection-start-column="7" selection-end-line="161" selection-end-column="7" />
+          <folding>
+            <element signature="e#1405#1406#0" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/dwr.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1428,9 +1138,9 @@
           <artifact-editor>
             <show-content>
               <type id="artifact" />
-              <type id="jpa-descriptors" />
-              <type id="library" />
               <type id="javaee-facet-resources" />
+              <type id="library" />
+              <type id="jpa-descriptors" />
             </show-content>
           </artifact-editor>
           <last-edited>Chessella-Restored:war exploded</last-edited>

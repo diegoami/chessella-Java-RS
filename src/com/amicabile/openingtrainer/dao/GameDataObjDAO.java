@@ -140,6 +140,7 @@ public class GameDataObjDAO extends GenericDAO {
       var2.setMaxResults(500);
       List var3 = var2.list();
       this.setAnnotationFlag(var3);
+      this.clearPgnStrings(var3);
       var1.close();
       return var3;
    }
@@ -153,6 +154,8 @@ public class GameDataObjDAO extends GenericDAO {
          var3.setMaxResults(500);
          List var4 = var3.list();
          this.setAnnotationFlag(var4);
+         this.clearPgnStrings(var4);
+
          var2 = var4;
       } finally {
          var1.close();
@@ -185,6 +188,7 @@ public class GameDataObjDAO extends GenericDAO {
          var4.setMaxResults(500);
          List var5 = var4.list();
          this.setAnnotationFlag(var5);
+         this.clearPgnStrings(var5);
          var3 = var5;
       } finally {
          var2.close();
@@ -316,6 +320,16 @@ public class GameDataObjDAO extends GenericDAO {
          if(StringUtils.isEmpty(var3.getAnnotator()) && !StringUtils.isEmpty(var3.getPgnstring())) {
             var3.setAnnotator(var3.getPgnstring().contains("{")?"Yes":"");
          }
+      }
+
+   }
+
+   private void clearPgnStrings (List var1) {
+      Iterator var2 = var1.iterator();
+
+      while(var2.hasNext()) {
+         GameDataObj var3 = (GameDataObj)var2.next();
+         var3.setPgnstring(null);
       }
 
    }
