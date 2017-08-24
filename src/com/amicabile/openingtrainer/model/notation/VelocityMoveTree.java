@@ -2,10 +2,6 @@ package com.amicabile.openingtrainer.model.notation;
 
 import com.amicabile.openingtrainer.config.ShowBoardRule;
 import com.amicabile.openingtrainer.config.ShowBoardRulePrototypes;
-import com.amicabile.openingtrainer.model.notation.VelocityComment;
-import com.amicabile.openingtrainer.model.notation.VelocityMove;
-import com.amicabile.openingtrainer.model.notation.VelocityMoveKey;
-import com.amicabile.openingtrainer.model.notation.VelocityMoveNumberKey;
 import ictk.boardgame.Game;
 import java.util.ArrayList;
 import java.util.HashMap;
