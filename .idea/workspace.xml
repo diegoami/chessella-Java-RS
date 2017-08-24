@@ -7,8 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b971658-e216-45b0-81b6-d64815f319e2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/velocity-tools-view-1.1.jar" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/amicabile/openingtrainer/pgn/writer/MoveTreeDumper.java" afterPath="$PROJECT_DIR$/test/com/amicabile/openingtrainer/pgn/writer/MoveTreeDumper.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/jaxp.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -209,16 +208,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HeuristicMixedException.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/jta.jar!/javax/transaction/HeuristicMixedException.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="VelocityMove.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/model/notation/VelocityMove.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -243,7 +232,7 @@
         <entry file="file://$PROJECT_DIR$/test/com/amicabile/openingtrainer/pgn/writer/MoveTreeDumper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
-              <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+              <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -272,16 +261,6 @@
         </entry>
       </file>
       <file leaf-file-name="DocumentBuilder.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/jaxp.jar!/javax/xml/parsers/DocumentBuilder.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DocumentBuilder.class" pinned="false" current-in-tab="false">
         <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/javax/xml/parsers/DocumentBuilder.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
@@ -291,11 +270,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractDOMAdapter.class" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AbstractDOMAdapter.class" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/lib/jdom.jar!/org/jdom/adapters/AbstractDOMAdapter.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="41" column="56" lean-forward="false" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SAXNotRecognizedException.class" pinned="false" current-in-tab="true">
+        <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/org/xml/sax/SAXNotRecognizedException.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -476,43 +465,7 @@
               <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
               <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="jaxp.jar" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="jaxp.jar" type="ab9368bb:PsiFileNode" />
-              <item name="xml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="jaxp.jar" type="ab9368bb:PsiFileNode" />
-              <item name="xml" type="462c0819:PsiDirectoryNode" />
-              <item name="parsers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="jdom.jar" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="jdom.jar" type="ab9368bb:PsiFileNode" />
-              <item name="jdom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="jdom.jar" type="ab9368bb:PsiFileNode" />
-              <item name="jdom" type="462c0819:PsiDirectoryNode" />
-              <item name="adapters" type="462c0819:PsiDirectoryNode" />
+              <item name="log4j-1.2.9.jar" type="ab9368bb:PsiFileNode" />
             </path>
             <path>
               <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
@@ -550,12 +503,6 @@
               <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="sitemesh-2.2.1.jar" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="xercesImpl.jar" type="ab9368bb:PsiFileNode" />
             </path>
             <path>
               <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
@@ -931,7 +878,7 @@
       <workItem from="1502759212145" duration="204000" />
       <workItem from="1502759430534" duration="690000" />
       <workItem from="1502817264726" duration="14000" />
-      <workItem from="1503611298756" duration="5443000" />
+      <workItem from="1503611298756" duration="5742000" />
     </task>
     <task id="LOCAL-00001" summary="Included artifacts information and other stuff">
       <created>1502226684845</created>
@@ -1045,11 +992,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503617414248</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Removed velocity">
+      <created>1503618191722</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1503618191722</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38151000" />
+    <option name="totallyTimeSpent" value="38450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -1123,7 +1077,8 @@
     <MESSAGE value="Another round of fixing libraries" />
     <MESSAGE value="Moved test classes." />
     <MESSAGE value="Removed jdbc library" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed jdbc library" />
+    <MESSAGE value="Removed velocity" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed velocity" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1152,27 +1107,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/security/MessageDigest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/chessella.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="true" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/RegisterAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -1523,7 +1457,7 @@
     <entry file="file://$PROJECT_DIR$/test/com/amicabile/openingtrainer/pgn/writer/MoveTreeDumper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1564,8 +1498,32 @@
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/jdom.jar!/org/jdom/adapters/AbstractDOMAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="306">
+          <caret line="41" column="56" lean-forward="false" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/xercesImpl.jar!/org/apache/xerces/parsers/AbstractDOMParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="56" column="13" lean-forward="false" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/xercesImpl.jar!/org/apache/xerces/parsers/DTDParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="31" column="46" lean-forward="false" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/org/xml/sax/SAXNotRecognizedException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding />
         </state>
       </provider>
