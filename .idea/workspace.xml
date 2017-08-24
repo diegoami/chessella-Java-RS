@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b971658-e216-45b0-81b6-d64815f319e2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/werken.xpath.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/xml-apis.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -209,16 +209,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VelocityMoveTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/model/notation/VelocityMoveTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MoveTreeDumper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/com/amicabile/openingtrainer/pgn/writer/MoveTreeDumper.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -291,11 +281,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Messages.class" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Messages.class" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/lib/displaytag-1.1.jar!/org/displaytag/Messages.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
               <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ByteVector.class" pinned="false" current-in-tab="true">
+        <entry file="jar://$PROJECT_DIR$/lib/cglib-nodep.jar!/net/sf/cglib/asm/ByteVector.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -471,6 +471,27 @@
               <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
               <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="cglib-full-2.0.2.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="cglib-full-2.0.2.jar" type="ab9368bb:PsiFileNode" />
+              <item name="cglib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="cglib-full-2.0.2.jar" type="ab9368bb:PsiFileNode" />
+              <item name="cglib" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
@@ -877,7 +898,7 @@
       <workItem from="1502759212145" duration="204000" />
       <workItem from="1502759430534" duration="690000" />
       <workItem from="1502817264726" duration="14000" />
-      <workItem from="1503611298756" duration="5956000" />
+      <workItem from="1503611298756" duration="6242000" />
     </task>
     <task id="LOCAL-00001" summary="Included artifacts information and other stuff">
       <created>1502226684845</created>
@@ -1005,11 +1026,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503618490008</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Removed WERKEN XPATH">
+      <created>1503618705221</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1503618705221</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38664000" />
+    <option name="totallyTimeSpent" value="38950000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -1085,7 +1113,8 @@
     <MESSAGE value="Removed jdbc library" />
     <MESSAGE value="Removed velocity" />
     <MESSAGE value="Removed JAXP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed JAXP" />
+    <MESSAGE value="Removed WERKEN XPATH" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed WERKEN XPATH" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1114,16 +1143,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/model/dataobj/GameDataObj.hbm.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1584">
-          <caret line="88" column="4" lean-forward="false" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
-          <folding>
-            <marker date="1502746068082" expanded="true" signature="3163:3273" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/model/dataobj/GameDataObj.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
@@ -1533,6 +1552,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/cglib-nodep.jar!/net/sf/cglib/asm/ByteVector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
