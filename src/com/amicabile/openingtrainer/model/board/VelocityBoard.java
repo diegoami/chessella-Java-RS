@@ -2,7 +2,6 @@ package com.amicabile.openingtrainer.model.board;
 
 import com.amicabile.openingtrainer.model.ColorEnum;
 import com.amicabile.openingtrainer.model.PieceEnum;
-import com.amicabile.openingtrainer.model.board.VelocityRow;
 
 public class VelocityBoard {
 
