@@ -6,8 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b971658-e216-45b0-81b6-d64815f319e2" name="Default" comment="Removed Redundant CGLIB">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/xsltc.jar" afterPath="" />
+    <list default="true" id="6b971658-e216-45b0-81b6-d64815f319e2" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/w3c.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/chessella_libs.xml" afterPath="$PROJECT_DIR$/.idea/libraries/chessella_libs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -205,30 +206,11 @@
         </favorite_root>
       </favorite_root>
       <favorite_root url="file://$PROJECT_DIR$/lib/xercesImpl.jar" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/lib/jta.jar" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
     </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BinaryEncoder.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/commons-codec.jar!/org/apache/commons/codec/BinaryEncoder.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DocumentBuilder.class" pinned="false" current-in-tab="false">
         <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/javax/xml/parsers/DocumentBuilder.class">
           <provider selected="true" editor-type-id="text-editor">
@@ -299,11 +281,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MANIFEST.MF" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MANIFEST.MF" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/lib/commons-codec.jar!/META-INF/MANIFEST.MF">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DocumentView.class" pinned="false" current-in-tab="true">
+        <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/org/w3c/dom/views/DocumentView.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -475,45 +467,7 @@
               <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
               <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="log4j-1.2.9.jar" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="multipartrequest.jar" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="ognl.jar" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="ognl.jar" type="ab9368bb:PsiFileNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="rife-continuations.jar" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="rife-continuations.jar" type="ab9368bb:PsiFileNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="sitemesh-2.2.1.jar" type="ab9368bb:PsiFileNode" />
+              <item name="xalan.jar" type="ab9368bb:PsiFileNode" />
             </path>
             <path>
               <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
@@ -525,58 +479,6 @@
               <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="amicabile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="amicabile" type="462c0819:PsiDirectoryNode" />
-              <item name="openingtrainer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="amicabile" type="462c0819:PsiDirectoryNode" />
-              <item name="openingtrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="amicabile" type="462c0819:PsiDirectoryNode" />
-              <item name="openingtrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="notation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="amicabile" type="462c0819:PsiDirectoryNode" />
-              <item name="openingtrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="pgn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="amicabile" type="462c0819:PsiDirectoryNode" />
-              <item name="openingtrainer" type="462c0819:PsiDirectoryNode" />
-              <item name="pgn" type="462c0819:PsiDirectoryNode" />
-              <item name="writer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
@@ -654,7 +556,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/testlib/junit.jar!/" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
@@ -877,7 +779,7 @@
       <workItem from="1502759212145" duration="204000" />
       <workItem from="1502759430534" duration="690000" />
       <workItem from="1502817264726" duration="14000" />
-      <workItem from="1503611298756" duration="6616000" />
+      <workItem from="1503611298756" duration="7091000" />
     </task>
     <task id="LOCAL-00001" summary="Included artifacts information and other stuff">
       <created>1502226684845</created>
@@ -1026,11 +928,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503619081661</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Removed XALAN">
+      <created>1503619361468</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1503619361468</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39324000" />
+    <option name="totallyTimeSpent" value="39799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -1057,11 +966,11 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41028333" sideWeight="0.88625336" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31590298" sideWeight="0.86121" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31590298" sideWeight="0.519573" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959569" sideWeight="0.5133333" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41867787" sideWeight="0.48733154" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31590298" sideWeight="0.13879004" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31590298" sideWeight="0.48042706" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1109,7 +1018,8 @@
     <MESSAGE value="Removed WERKEN XPATH" />
     <MESSAGE value="Removed XML APIs" />
     <MESSAGE value="Removed Redundant CGLIB" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed Redundant CGLIB" />
+    <MESSAGE value="Removed XALAN" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed XALAN" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1138,21 +1048,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/out/artifacts/Chessella_Restored_war_exploded/WEB-INF/classes/com/amicabile/openingtrainer/dao/GameDataObjDAO.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2052">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/repository/GameRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="116" column="22" lean-forward="false" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/pgn/PGNAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -1555,6 +1450,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/w3c.jar!/org/w3c/dom/views/DocumentView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/org/w3c/dom/views/DocumentView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding />
         </state>
       </provider>
