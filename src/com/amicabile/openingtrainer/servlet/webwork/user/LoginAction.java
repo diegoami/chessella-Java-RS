@@ -2,9 +2,9 @@ package com.amicabile.openingtrainer.servlet.webwork.user;
 
 import com.amicabile.openingtrainer.dao.UserDAO;
 import com.amicabile.openingtrainer.model.dataobj.User;
-import com.opensymphony.xwork.ActionContext;
-import com.opensymphony.xwork.ActionSupport;
-import com.opensymphony.xwork.validator.ValidationException;
+import com.opensymphony.xwork2.ActionContext;
+import com.opensymphony.xwork2.ActionSupport;
+import com.opensymphony.xwork2.validator.ValidationException;
 
 import java.io.IOException;
 import java.util.Map;

@@ -6,12 +6,22 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b971658-e216-45b0-81b6-d64815f319e2" name="Default" comment="Updated some libraries">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/cglib-full-2.0.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/ognl.jar" afterPath="" />
+    <list default="true" id="6b971658-e216-45b0-81b6-d64815f319e2" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/sitemesh-2.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/webwork-2.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/xwork-1.1.3.jar" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/freemarker-2.3.8.jar" afterPath="$PROJECT_DIR$/lib/old/freemarker-2.3.8.jar" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/xwork.xml" afterPath="$PROJECT_DIR$/resources/struts.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/xwork.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/struts.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/chessella_libs.xml" afterPath="$PROJECT_DIR$/.idea/libraries/chessella_libs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/GameAction.java" afterPath="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/GameAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/ListGamesAction.java" afterPath="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/ListGamesAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/LoginAction.java" afterPath="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/LoginAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/LogoutAction.java" afterPath="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/LogoutAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/RegisterAction.java" afterPath="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/RegisterAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/SettingsAction.java" afterPath="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/SettingsAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -779,21 +789,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="LogoutAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/LogoutAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+            <state relative-caret-position="36">
+              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegExUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/amicabile/support/RegExUtil.java">
+      <file leaf-file-name="HttpServletRequest.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/dev_tools/apache-tomcat-8.5.16/lib/servlet-api.jar!/javax/servlet/http/HttpServletRequest.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="936">
+              <caret line="60" column="16" lean-forward="false" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/RegisterAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -801,81 +821,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="displaytag-el.tld" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/displaytag-el.tld">
+      <file leaf-file-name="RegisterAction-validation.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/RegisterAction-validation.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="18">
+              <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dwr.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/dwr.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/struts.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+            <state relative-caret-position="172">
+              <caret line="80" column="22" lean-forward="false" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xwork.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/xwork.xml">
+      <file leaf-file-name="web-app_2_3.dtd" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-app_2_3.dtd">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+            <state relative-caret-position="165">
+              <caret line="112" column="10" lean-forward="false" selection-start-line="112" selection-start-column="10" selection-end-line="112" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MANIFEST.MF" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/xwork-1.1.3.jar!/META-INF/MANIFEST.MF">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OgnlValueStack.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/xwork-1.1.3.jar!/com/opensymphony/xwork/util/OgnlValueStack.class">
+      <file leaf-file-name="StrutsListener.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/struts2-core-2.5.12.jar!/org/apache/struts2/dispatcher/listener/StrutsListener.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TypeConversionException.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/xwork-1.1.3.jar!/com/opensymphony/xwork/util/TypeConversionException.class">
+      <file leaf-file-name="struts.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/struts.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TextParseUtil.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/xwork-1.1.3.jar!/com/opensymphony/xwork/util/TextParseUtil.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="robots.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/robots.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="72">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -892,9 +902,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Syste</find>
-      <find>System.err</find>
-      <find>TestPGN</find>
       <find>showBoard</find>
       <find>ExtendedPGNWriter</find>
       <find>defaultCompo</find>
@@ -922,10 +929,14 @@
       <find>Quartz</find>
       <find>web.x</find>
       <find>Q</find>
+      <find>xwork</find>
+      <find>com.opensymphony.xwork.</find>
+      <find>DOCTYPE</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>log.debug(</replace>
+      <replace>com.opensymphony.xwork2.</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/ictk</dir>
@@ -948,7 +959,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/lib/xwork-1.1.3.jar!/com/opensymphony/xwork/DefaultActionInvocation.class" />
         <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/pgn/PGNExecution.java" />
@@ -974,10 +984,7 @@
         <option value="$PROJECT_DIR$/resources/classes-dir/log4j.properties" />
         <option value="$PROJECT_DIR$/web/WEB-INF/log4j.properties" />
         <option value="$PROJECT_DIR$/resources/classes-dir/chessella.properties" />
-        <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/GameAction.java" />
         <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/model/dataobj/User.java" />
-        <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/LoginAction.java" />
-        <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/RegisterAction.java" />
         <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/model/dataobj/GameDataObj.hbm.xml" />
         <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/dao/GameDataObjDAO.java" />
@@ -989,6 +996,16 @@
         <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/pgn/PGNStripper.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/xwork.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/RegisterAction.java" />
+        <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/GameAction.java" />
+        <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/LoginAction.java" />
+        <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/SettingsAction.java" />
+        <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/ListGamesAction.java" />
+        <option value="$PROJECT_DIR$/resources/xwork.xml" />
+        <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/LogoutAction.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/struts.xml" />
+        <option value="$PROJECT_DIR$/resources/struts.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -1013,7 +1030,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="64" />
+    <option name="x" value="-1856" />
     <option name="y" value="-11" />
     <option name="width" value="1857" />
     <option name="height" value="1092" />
@@ -1034,7 +1051,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1045,13 +1062,71 @@
             <path>
               <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
               <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="old" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="commons-logging-1.2.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="log4j-1.2.17.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="log4j-1.2.17.jar" type="ab9368bb:PsiFileNode" />
+              <item name="log4j" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="struts2-sitemesh-plugin-2.5.12.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="struts2-sitemesh-plugin-2.5.12.jar" type="ab9368bb:PsiFileNode" />
+              <item name="sitemesh" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
@@ -1091,10 +1166,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/cglib-nodep-3.2.5.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/freemarker-2.3.23.jar!/" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -1110,12 +1186,6 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/test/com/amicabile/openingtrainer" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$/lib/notworking" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.amicabile.openingtrainer.pgn.writer" />
       <recent name="com.amicabile.openingtrainer.controller" />
@@ -1123,6 +1193,13 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/WEB-INF" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/old" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/lib/notworking" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1329,7 +1406,8 @@
       <workItem from="1503753391557" duration="2009000" />
       <workItem from="1503760078320" duration="2513000" />
       <workItem from="1503771416377" duration="310000" />
-      <workItem from="1503778379164" duration="585000" />
+      <workItem from="1503778379164" duration="4914000" />
+      <workItem from="1503783618766" duration="1631000" />
     </task>
     <task id="LOCAL-00001" summary="Included artifacts information and other stuff">
       <created>1502226684845</created>
@@ -1569,17 +1647,24 @@
       <option name="project" value="LOCAL" />
       <updated>1503774529471</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Libraries - requirements for xwork">
+      <created>1503778990080</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1503778990081</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49522000" />
+    <option name="totallyTimeSpent" value="55482000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="-1856" y="-11" width="1857" height="1092" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41133264" sideWeight="0.13638814" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48268625" sideWeight="0.14016172" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33026585" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1590,17 +1675,18 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6149003" sideWeight="0.90512127" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44700944" sideWeight="0.47654986" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44700944" sideWeight="0.44636118" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.49811321" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41133264" sideWeight="0.8636119" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48268625" sideWeight="0.85983825" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991913" sideWeight="0.4973262" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32938007" sideWeight="0.4973262" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959569" sideWeight="0.5133333" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41867787" sideWeight="0.48301888" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991913" sideWeight="0.5026738" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1611,7 +1697,6 @@
       <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41867787" sideWeight="0.4851752" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1631,7 +1716,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Passwords now (statically) salted and hashed" />
     <MESSAGE value="Trying to reduce memory requirements - nulling pgnString" />
     <MESSAGE value="Ignoring salt file" />
     <MESSAGE value="Removed redundant libraries - 1" />
@@ -1656,7 +1740,8 @@
     <MESSAGE value="Removed commons io library" />
     <MESSAGE value="New versions of common files" />
     <MESSAGE value="Updated some libraries" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated some libraries" />
+    <MESSAGE value="Libraries - requirements for xwork" />
+    <option name="LAST_COMMIT_MESSAGE" value="Libraries - requirements for xwork" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1685,74 +1770,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/xalan.jar!/org/apache/xml/dtm/DTMManager.class" />
-    <entry file="jar://$PROJECT_DIR$/lib/xwork-1.1.3.jar!/com/opensymphony/xwork/ActionInvocation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/serializer.jar!/org/apache/xml/serializer/DOM3Serializer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/javax/xml/xpath/XPath.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="16" column="30" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/displaytag-1.1.jar!/org/displaytag/Messages.class" />
-    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/org/xml/sax/SAXNotRecognizedException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/commons-attributes-api.jar!/org/apache/commons/attributes/AttributeRepositoryClass.class" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/SettingsAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/RegisterAction-validation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/LoginAction-validation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/commons-lang.jar!/org/apache/commons/lang/enums/Enum.class" />
-    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/model/ColorEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/commons-lang.jar!/org/apache/commons/lang/math/DoubleRange.class" />
     <entry file="jar://$PROJECT_DIR$/lib/commons-validator.jar!/org/apache/commons/validator/resources/validator_1_0_1.dtd" />
     <entry file="jar://$PROJECT_DIR$/lib/commons-validator.jar!/org/apache/commons/validator/GenericTypeValidator.class" />
     <entry file="jar://$PROJECT_DIR$/lib/commons-pool.jar!/org/apache/commons/pool/ObjectPoolFactory.class" />
@@ -1765,13 +1782,7 @@
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/lib/commons-digester.jar!/org/apache/commons/digester/SimpleRegexMatcher.class" />
-    <entry file="jar://$PROJECT_DIR$/lib/xwork-1.1.3.jar!/com/opensymphony/xwork/DefaultActionProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/xwork-1.1.3.jar!/com/opensymphony/xwork/DefaultActionProxy.class" />
     <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/pgn/PGNStripper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -1831,6 +1842,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1870,15 +1882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1886,6 +1889,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1897,55 +1901,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/xwork.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="50" lean-forward="false" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/xwork-1.1.3.jar!/META-INF/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/xwork-1.1.3.jar!/META-INF/MANIFEST.MF" />
     <entry file="jar://$PROJECT_DIR$/lib/ognl-2.7.3.jar!/META-INF/MANIFEST.MF" />
-    <entry file="jar://$PROJECT_DIR$/lib/xwork-1.1.3.jar!/com/opensymphony/xwork/util/OgnlValueStack.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/xwork-1.1.3.jar!/com/opensymphony/xwork/util/TypeConversionException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/xwork-1.1.3.jar!/com/opensymphony/xwork/util/TextParseUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/xwork-1.1.3.jar!/com/opensymphony/xwork/util/OgnlValueStack.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/xwork-1.1.3.jar!/com/opensymphony/xwork/util/TypeConversionException.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/xwork-1.1.3.jar!/com/opensymphony/xwork/util/TextParseUtil.class" />
     <entry file="jar://$PROJECT_DIR$/lib/sitemesh-2.3.jar!/com/opensymphony/module/sitemesh/filter/PageFilter.class" />
     <entry file="file://$PROJECT_DIR$/src/com/amicabile/support/RegExUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1953,6 +1918,142 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/GameAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/LoginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/SettingsAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/games/ListGamesAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <marker date="1503783330383" expanded="false" signature="1017:1026" ph=" { " />
+            <marker date="1503783330383" expanded="false" signature="1049:1054" ph=" }" />
+            <marker date="1503783330383" expanded="false" signature="1100:1109" ph=" { " />
+            <marker date="1503783330383" expanded="false" signature="1138:1143" ph=" }" />
+            <marker date="1503783330383" expanded="false" signature="1568:1577" ph=" { " />
+            <marker date="1503783330383" expanded="false" signature="1598:1603" ph=" }" />
+            <marker date="1503783330383" expanded="false" signature="3654:3663" ph=" { " />
+            <marker date="1503783330383" expanded="false" signature="3688:3693" ph=" }" />
+            <marker date="1503783330383" expanded="false" signature="3747:3756" ph=" { " />
+            <marker date="1503783330383" expanded="false" signature="3787:3792" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/webwork-2.2.2.jar!/com/opensymphony/webwork/ServletActionContext.class" />
+    <entry file="jar://$PROJECT_DIR$/lib/webwork-2.2.7.jar!/com/opensymphony/webwork/ServletActionContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/dev_tools/apache-tomcat-8.5.16/lib/servlet-api.jar!/javax/servlet/http/HttpServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="60" column="16" lean-forward="false" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/RegisterAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/RegisterAction-validation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/dwr.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/servlet/webwork/user/LogoutAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/struts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/struts2-core-2.5.12.jar!/org/apache/struts2/dispatcher/listener/StrutsListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-app_2_3.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="112" column="10" lean-forward="false" selection-start-line="112" selection-start-column="10" selection-end-line="112" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="80" column="22" lean-forward="false" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1965,9 +2066,9 @@
           <artifact-editor>
             <show-content>
               <type id="library" />
+              <type id="artifact" />
               <type id="javaee-facet-resources" />
               <type id="jpa-descriptors" />
-              <type id="artifact" />
             </show-content>
           </artifact-editor>
           <last-edited>Chessella-Restored:war exploded</last-edited>
