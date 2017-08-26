@@ -1,37 +1,34 @@
 <component name="libraryTable">
   <library name="chessella-libs">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/c3p0-0.8.4.5.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/cglib-full-2.0.2.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/displaytag-1.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/dom4j-1.4.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/dwr.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/ehcache-1.3.0.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/freemarker.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/hibernate-tools.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/hibernate2.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/jakarta-oro-2.0.8.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/jdom.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jta.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/log4j-1.2.9.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/multipartrequest.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-3.1.14-bin.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/ognl.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/oscore.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/rife-continuations.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/serializer.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/sitemesh-2.2.1.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-beans.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-context.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/spring-core.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/webwork-2.2.2.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/xercesImpl.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/xwork-1.1.3.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/commons-beanutils-1.9.3.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/commons-httpclient-3.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/commons-collections-3.2.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/commons-lang-2.6.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/displaytag-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/dwr-1.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/freemarker-2.3.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/multipartrequest.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-beans-2.5.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-core-2.5.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xercesImpl-2.11.0.SP5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xwork-1.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ognl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/oscore.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/sitemesh-2.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webwork-2.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/c3p0-0.8.5.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cglib-full-2.0.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
