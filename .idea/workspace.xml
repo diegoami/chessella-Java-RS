@@ -7,9 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b971658-e216-45b0-81b6-d64815f319e2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/serializer.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/webwork-2.2.2.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/chessella_libs.xml" afterPath="$PROJECT_DIR$/.idea/libraries/chessella_libs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -858,11 +855,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MoveTreePrinter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MoveTreePrinter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/controller/freemarker/MoveTreePrinter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-18">
               <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TransactionRolledbackException.class" pinned="false" current-in-tab="true">
+        <entry file="jar://$PROJECT_DIR$/lib/jta.jar!/javax/transaction/TransactionRolledbackException.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -1601,11 +1608,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503787308263</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Serializer and Webwork">
+      <created>1503787758440</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1503787758440</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51708000" />
+    <option name="totallyTimeSpent" value="51926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
@@ -1689,7 +1703,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ignoring salt file" />
     <MESSAGE value="Removed redundant libraries - 1" />
     <MESSAGE value="Second round of eliminating redundant libraries" />
     <MESSAGE value="Another round of fixing libraries" />
@@ -1714,7 +1727,8 @@
     <MESSAGE value="Updated some libraries" />
     <MESSAGE value="Oscore and Rife safe" />
     <MESSAGE value="Xwork 1.2.3 and oscore and rife" />
-    <option name="LAST_COMMIT_MESSAGE" value="Xwork 1.2.3 and oscore and rife" />
+    <MESSAGE value="Serializer and Webwork" />
+    <option name="LAST_COMMIT_MESSAGE" value="Serializer and Webwork" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1743,7 +1757,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/displaytag-1.1.jar!/org/displaytag/Messages.class" />
     <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/org/xml/sax/SAXNotRecognizedException.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -2012,6 +2025,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-18">
           <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jta.jar!/javax/transaction/TransactionRolledbackException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
