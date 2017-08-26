@@ -6,7 +6,6 @@
       <root url="jar://$PROJECT_DIR$/lib/hibernate2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jta.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-3.1.14-bin.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/serializer.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/commons-beanutils-1.9.3.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/commons-httpclient-3.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/commons-collections-3.2.2.jar!/" />
@@ -25,10 +24,11 @@
       <root url="jar://$PROJECT_DIR$/lib/c3p0-0.8.5.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/ognl-2.6.11.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/cglib-nodep-3.2.5.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/webwork-2.2.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/oscore-2.2.4.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/rife-continuations-0.0.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/xwork-1.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webwork-2.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/serializer-2.7.2.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
