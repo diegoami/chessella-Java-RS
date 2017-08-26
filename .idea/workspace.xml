@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b971658-e216-45b0-81b6-d64815f319e2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-io-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-fileupload-1.1.1.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -818,11 +818,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServletMultipartRequest.class" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ServletMultipartRequest.class" pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/lib/multipartrequest.jar!/http/utils/multipartrequest/ServletMultipartRequest.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
               <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SAXParser.class" pinned="false" current-in-tab="true">
+        <entry file="jar://$PROJECT_DIR$/lib/crimson.jar!/javax/xml/parsers/SAXParser.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -1056,6 +1066,24 @@
             <path>
               <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
               <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="crimson.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="crimson.jar" type="ab9368bb:PsiFileNode" />
+              <item name="parsers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
@@ -1305,7 +1333,7 @@
       <workItem from="1503611298756" duration="8803000" />
       <workItem from="1503753349098" duration="22000" />
       <workItem from="1503753391557" duration="2009000" />
-      <workItem from="1503760078320" duration="2282000" />
+      <workItem from="1503760078320" duration="2513000" />
     </task>
     <task id="LOCAL-00001" summary="Included artifacts information and other stuff">
       <created>1502226684845</created>
@@ -1524,11 +1552,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503761779774</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Removed commons io library">
+      <created>1503762373690</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1503762373690</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45824000" />
+    <option name="totallyTimeSpent" value="46055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1857" height="1092" extended-state="6" />
@@ -1586,7 +1621,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="hotfix/chessella-1 removed commented out code" />
     <MESSAGE value="Readme updated" />
     <MESSAGE value="Modified target, added excpetion in case there is no valid game" />
     <MESSAGE value="Passwords now (statically) salted and hashed" />
@@ -1611,7 +1645,8 @@
     <MESSAGE value="Common pool and validator" />
     <MESSAGE value="Removed digester" />
     <MESSAGE value="Removed useless quartz servlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed useless quartz servlet" />
+    <MESSAGE value="Removed commons io library" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed commons io library" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1640,13 +1675,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/jta.jar!/javax/transaction/HeuristicMixedException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/velocity-tools-view-1.1.jar!/org/apache/velocity/tools/view/XMLToolboxManager.class" />
     <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/model/notation/VelocityMove.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1926,6 +1954,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/crimson.jar!/javax/xml/parsers/SAXParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="19" column="22" lean-forward="false" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
           <folding />
         </state>
       </provider>
