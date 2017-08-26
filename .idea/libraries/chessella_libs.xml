@@ -5,14 +5,9 @@
       <root url="jar://$PROJECT_DIR$/lib/cglib-full-2.0.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/commons-beanutils.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/commons-digester.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/commons-fileupload-1.1.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/commons-io-1.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/commons-lang.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/commons-logging.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/commons-pool.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/crimson.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/displaytag-1.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/dom4j-1.4.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/dwr.jar!/" />
@@ -28,7 +23,6 @@
       <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-3.1.14-bin.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/ognl.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/oscore.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/quartz-1.5.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/rife-continuations.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/serializer.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/sitemesh-2.2.1.jar!/" />
