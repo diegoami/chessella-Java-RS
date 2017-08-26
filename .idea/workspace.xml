@@ -7,10 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b971658-e216-45b0-81b6-d64815f319e2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-pool.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-validator.jar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/chessella_libs.xml" afterPath="$PROJECT_DIR$/.idea/libraries/chessella_libs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/commons-digester.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/amicabile/openingtrainer/pgn/PGNStripper.java" afterPath="$PROJECT_DIR$/src/com/amicabile/openingtrainer/pgn/PGNStripper.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -323,6 +322,457 @@
         </favorite_root>
         <favorite_root url="jar://$PROJECT_DIR$/lib/commons-beanutils.jar!/overview.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
       </favorite_root>
+      <favorite_root url="file://$PROJECT_DIR$/lib/commons-httpclient.jar" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode">
+        <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/auth" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/auth/NTLM.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/auth/AuthScope.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/auth/AuthState.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/auth/AuthPolicy.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/auth/AuthScheme.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/auth/NTLMScheme.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/auth/BasicScheme.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/auth/DigestScheme.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/auth/HttpAuthRealm.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/auth/RFC2617Scheme.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/auth/AuthSchemeBase.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/auth/HttpAuthenticator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/auth/AuthChallengeParser.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/auth/CredentialsProvider.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/auth/AuthChallengeException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/auth/AuthChallengeProcessor.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/auth/AuthenticationException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/auth/InvalidCredentialsException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/auth/MalformedChallengeException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/auth/CredentialsNotAvailableException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/util" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/util/URIUtil.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/util/DateUtil.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/util/LangUtils.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/util/DateParser.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/util/EncodingUtil.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/util/ExceptionUtil.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/util/ParameterParser.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/util/HttpURLConnection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/util/TimeoutController.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/util/DateParseException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/util/ParameterFormatter.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/util/IdleConnectionHandler.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/util/IdleConnectionTimeoutThread.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/cookie" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/cookie/CookieSpec.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/cookie/RFC2109Spec.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/cookie/CookiePolicy.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/cookie/CookieSpecBase.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/cookie/IgnoreCookiesSpec.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/cookie/NetscapeDraftSpec.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/cookie/MalformedCookieException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/params" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/params/HostParams.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/params/HttpParams.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/params/HttpClientParams.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/params/HttpMethodParams.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/params/DefaultHttpParams.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/params/HttpParamsFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/params/HttpConnectionParams.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/params/DefaultHttpParamsFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/params/HttpConnectionManagerParams.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/methods" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/methods/multipart" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/methods/multipart/Part.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/methods/multipart/FilePart.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/methods/multipart/PartBase.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/methods/multipart/PartSource.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/methods/multipart/StringPart.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/methods/multipart/FilePartSource.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/methods/multipart/ByteArrayPartSource.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/methods/multipart/MultipartRequestEntity.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </favorite_root>
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/methods/GetMethod.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/methods/PutMethod.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/methods/HeadMethod.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/methods/PostMethod.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/methods/TraceMethod.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/methods/DeleteMethod.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/methods/OptionsMethod.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/methods/RequestEntity.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/methods/MultipartPostMethod.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/methods/StringRequestEntity.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/methods/ExpectContinueMethod.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/methods/EntityEnclosingMethod.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/methods/ByteArrayRequestEntity.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/methods/InputStreamRequestEntity.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/protocol" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/protocol/Protocol.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/protocol/ProtocolSocketFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/protocol/ReflectionSocketFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/protocol/SSLProtocolSocketFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/protocol/SecureProtocolSocketFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/protocol/DefaultProtocolSocketFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/protocol/ControllerThreadSocketFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/URI.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/Wire.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/Cookie.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/Header.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/HttpURL.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/HttpHost.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/HttpsURL.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/HttpState.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/ProxyHost.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/HttpClient.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/HttpMethod.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/HttpParser.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/HttpStatus.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/StatusLine.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/Credentials.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/HeaderGroup.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/HttpVersion.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/ProxyClient.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/URIException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/ConnectMethod.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/HeaderElement.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/HttpConstants.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/HttpException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/NTCredentials.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/NameValuePair.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/HttpConnection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/HttpMethodBase.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/HttpClientError.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/HostConfiguration.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/ProtocolException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/RedirectException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/ChunkedInputStream.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/HttpMethodDirector.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/MethodRetryHandler.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/WireLogInputStream.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/ChunkedOutputStream.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/WireLogOutputStream.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/AutoCloseInputStream.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/HttpConnectionManager.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/HttpMethodRetryHandler.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/ConnectTimeoutException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/NoHttpResponseException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/ResponseConsumedWatcher.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/ContentLengthInputStream.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/HttpRecoverableException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/CircularRedirectException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/DefaultMethodRetryHandler.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/SimpleHttpConnectionManager.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/UsernamePasswordCredentials.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/DefaultHttpMethodRetryHandler.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/ConnectionPoolTimeoutException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/org/apache/commons/httpclient/MultiThreadedHttpConnectionManager.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/META-INF" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/META-INF/LICENSE.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-httpclient.jar!/META-INF/MANIFEST.MF" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+      </favorite_root>
+      <favorite_root url="file://$PROJECT_DIR$/lib/commons-collections.jar" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode">
+        <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bag" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bag/HashBag.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bag/TreeBag.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bag/TypedBag.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bag/PredicatedBag.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bag/AbstractMapBag.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bag/TransformedBag.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bag/TypedSortedBag.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bag/SynchronizedBag.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bag/UnmodifiableBag.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bag/PredicatedSortedBag.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bag/AbstractBagDecorator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bag/TransformedSortedBag.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bag/SynchronizedSortedBag.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bag/UnmodifiableSortedBag.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bag/AbstractSortedBagDecorator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/LRUMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/LazyMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/Flat3Map.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/TypedMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/HashedMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/LinkedMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/IdentityMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/MultiKeyMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/CompositeMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/FixedSizeMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/ReferenceMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/SingletonMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/LazySortedMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/PredicatedMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/ListOrderedMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/TransformedMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/TypedSortedMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/StaticBucketMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/UnmodifiableMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/AbstractHashedMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/AbstractLinkedMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/CaseInsensitiveMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/FixedSizeSortedMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/PredicatedSortedMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/AbstractMapDecorator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/AbstractReferenceMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/ReferenceIdentityMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/TransformedSortedMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/UnmodifiableEntrySet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/UnmodifiableSortedMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/UnmodifiableOrderedMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/AbstractSortedMapDecorator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/AbstractOrderedMapDecorator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/map/AbstractInputCheckedMapDecorator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/set" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/set/TypedSet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/set/CompositeSet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/set/MapBackedSet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/set/PredicatedSet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/set/ListOrderedSet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/set/TransformedSet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/set/TypedSortedSet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/set/SynchronizedSet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/set/UnmodifiableSet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/set/PredicatedSortedSet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/set/AbstractSetDecorator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/set/TransformedSortedSet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/set/SynchronizedSortedSet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/set/UnmodifiableSortedSet.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/set/AbstractSortedSetDecorator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/set/AbstractSerializableSetDecorator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/list" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/list/LazyList.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/list/TreeList.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/list/TypedList.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/list/FixedSizeList.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/list/SetUniqueList.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/list/PredicatedList.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/list/TransformedList.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/list/SynchronizedList.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/list/UnmodifiableList.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/list/AbstractLinkedList.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/list/CursorableLinkedList.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/list/AbstractListDecorator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/list/NodeCachingLinkedList.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/list/AbstractSerializableListDecorator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/buffer" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/buffer/TypedBuffer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/buffer/BlockingBuffer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/buffer/PriorityBuffer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/buffer/PredicatedBuffer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/buffer/BoundedFifoBuffer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/buffer/TransformedBuffer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/buffer/CircularFifoBuffer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/buffer/SynchronizedBuffer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/buffer/UnmodifiableBuffer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/buffer/UnboundedFifoBuffer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/buffer/AbstractBufferDecorator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bidimap" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bidimap/TreeBidiMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bidimap/DualHashBidiMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bidimap/DualTreeBidiMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bidimap/AbstractDualBidiMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bidimap/UnmodifiableBidiMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bidimap/AbstractBidiMapDecorator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bidimap/UnmodifiableSortedBidiMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bidimap/UnmodifiableOrderedBidiMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bidimap/AbstractSortedBidiMapDecorator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/bidimap/AbstractOrderedBidiMapDecorator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/IfClosure.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/ForClosure.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/NOPClosure.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/OrPredicate.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/AllPredicate.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/AndPredicate.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/AnyPredicate.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/FunctorUtils.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/NotPredicate.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/OnePredicate.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/WhileClosure.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/NonePredicate.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/NullPredicate.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/SwitchClosure.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/TruePredicate.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/ChainedClosure.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/EqualPredicate.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/FalsePredicate.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/MapTransformer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/NOPTransformer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/ConstantFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/UniquePredicate.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/CloneTransformer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/ExceptionClosure.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/ExceptionFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/NotNullPredicate.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/PrototypeFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/IdentityPredicate.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/SwitchTransformer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/ChainedTransformer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/ClosureTransformer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/ExceptionPredicate.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/FactoryTransformer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/InstantiateFactory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/InvokerTransformer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/PredicateDecorator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/TransformerClosure.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/ConstantTransformer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/InstanceofPredicate.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/NullIsTruePredicate.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/ExceptionTransformer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/NullIsFalsePredicate.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/PredicateTransformer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/TransformedPredicate.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/TransformerPredicate.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/InstantiateTransformer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/StringValueTransformer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/functors/NullIsExceptionPredicate.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/keyvalue" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/keyvalue/MultiKey.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/keyvalue/TiedMapEntry.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/keyvalue/DefaultKeyValue.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/keyvalue/DefaultMapEntry.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/keyvalue/AbstractKeyValue.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/keyvalue/AbstractMapEntry.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/keyvalue/UnmodifiableMapEntry.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/keyvalue/AbstractMapEntryDecorator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/Bag.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/ArrayIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/EmptyIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/IteratorChain.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/ProxyIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/FilterIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/LoopingIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/EmptyMapIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/ArrayListIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/CollatingIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/EmptyListIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/ProxyListIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/SingletonIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/TransformIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/FilterListIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/EntrySetMapIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/EnumerationIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/IteratorEnumeration.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/ListIteratorWrapper.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/ObjectArrayIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/ObjectGraphIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/EmptyOrderedIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/UniqueFilterIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/UnmodifiableIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/AbstractEmptyIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/SingletonListIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/EmptyOrderedMapIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/ObjectArrayListIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/UnmodifiableMapIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/UnmodifiableListIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/AbstractIteratorDecorator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/AbstractMapIteratorDecorator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/AbstractListIteratorDecorator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/UnmodifiableOrderedMapIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/iterators/AbstractOrderedMapIteratorDecorator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/collection" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/collection/TypedCollection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/collection/CompositeCollection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/collection/PredicatedCollection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/collection/TransformedCollection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/collection/SynchronizedCollection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/collection/UnmodifiableCollection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/collection/AbstractCollectionDecorator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/collection/UnmodifiableBoundedCollection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/collection/AbstractSerializableCollectionDecorator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/comparators" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/comparators/NullComparator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/comparators/ComparatorChain.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/comparators/BooleanComparator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/comparators/ReverseComparator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/comparators/ComparableComparator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/comparators/FixedOrderComparator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/comparators/TransformingComparator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/Buffer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/LRUMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/BeanMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/BidiMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/Closure.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/Factory.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/HashBag.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/TreeBag.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/BagUtils.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/KeyValue.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/MapUtils.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/MultiMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/ProxyMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/SetUtils.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/ListUtils.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/Predicate.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/SortedBag.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/ArrayStack.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/BinaryHeap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/BoundedMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/OrderedMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/BufferUtils.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/FastHashMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/FastTreeMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/IterableMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/MapIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/Transformer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/ClosureUtils.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/FactoryUtils.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/MultiHashMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/ReferenceMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/Unmodifiable.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/DefaultMapBag.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/FastArrayList.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/IteratorUtils.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/PriorityQueue.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/SortedBidiMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/OrderedBidiMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/PredicateUtils.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/CollectionUtils.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/ComparatorUtils.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/DefaultMapEntry.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/OrderedIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/StaticBucketMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/DoubleOrderedMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/EnumerationUtils.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/FunctorException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/SequencedHashMap.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/TransformerUtils.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/BoundedCollection.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/BoundedFifoBuffer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/CursorableSubList.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/ExtendedProperties.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/OrderedMapIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/ResettableIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/UnboundedFifoBuffer.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/CursorableLinkedList.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/ResettableListIterator.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/BufferOverflowException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/BufferUnderflowException.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/org/apache/commons/collections/SynchronizedPriorityQueue.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/META-INF" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/META-INF/NOTICE.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/META-INF/LICENSE.txt" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          <favorite_root url="jar://$PROJECT_DIR$/lib/commons-collections.jar!/META-INF/MANIFEST.MF" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+      </favorite_root>
     </favorites_list>
   </component>
   <component name="FileEditorManager">
@@ -367,11 +817,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileUtil.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FileUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/amicabile/support/FileUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="342">
+              <caret line="19" column="14" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="19" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PGNStripper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/pgn/PGNStripper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegExUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/amicabile/support/RegExUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultActionProxy.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/xwork-1.1.3.jar!/com/opensymphony/xwork/DefaultActionProxy.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -398,10 +880,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>DEBUG</find>
-      <find>Log.debug(DEBUG,</find>
-      <find>Log.debug2(DEBUG,</find>
-      <find>xw</find>
       <find>System.out</find>
       <find>GameByUserName</find>
       <find>GAME_ID</find>
@@ -423,11 +901,15 @@
       <find>veloc</find>
       <find>org.apache.commons</find>
       <find>org.apache.commons.dig</find>
-      <find>stripAnnotation</find>
       <find>dbcp</find>
       <find>org.apache.commons.val</find>
       <find>org.apache.commons.beanutils</find>
       <find>org.apache.commons.pool</find>
+      <find>Sequence</find>
+      <find>org.apache.commons.col</find>
+      <find>org.apache.commons.collections</find>
+      <find>org.apache.commons.digester</find>
+      <find>stripAnnotation</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -435,6 +917,7 @@
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/ictk</dir>
+      <dir>$PROJECT_DIR$/lib/commons-logging.jar!/org/apache/commons/logging</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -492,6 +975,7 @@
         <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/model/notation/VelocityMoveTree.java" />
         <option value="$PROJECT_DIR$/lib/apache.license.txt" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/amicabile/openingtrainer/pgn/PGNStripper.java" />
       </list>
     </option>
   </component>
@@ -593,7 +1077,38 @@
               <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
               <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="dom4j-1.4.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="ehcache-1.3.0.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="spring-context.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="webwork-2.2.2.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="xercesImpl.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Chessella-Restored" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="xercesImpl.jar" type="ab9368bb:PsiFileNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Chessella-Restored" type="b2602c69:ProjectViewProjectNode" />
@@ -888,7 +1403,7 @@
       <workItem from="1503611298756" duration="8803000" />
       <workItem from="1503753349098" duration="22000" />
       <workItem from="1503753391557" duration="2009000" />
-      <workItem from="1503760078320" duration="403000" />
+      <workItem from="1503760078320" duration="1285000" />
     </task>
     <task id="LOCAL-00001" summary="Included artifacts information and other stuff">
       <created>1502226684845</created>
@@ -1086,17 +1601,24 @@
       <option name="project" value="LOCAL" />
       <updated>1503755175853</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Common pool and validator">
+      <created>1503760494050</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1503760494050</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43945000" />
+    <option name="totallyTimeSpent" value="44827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1857" height="1092" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41133264" sideWeight="0.12506738" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41133264" sideWeight="0.12884097" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33026585" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1113,13 +1635,14 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948583" sideWeight="0.49811321" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41133264" sideWeight="0.8749326" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41133264" sideWeight="0.871159" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991913" sideWeight="0.50445634" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991913" sideWeight="0.4973262" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959569" sideWeight="0.5133333" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41867787" sideWeight="0.4851752" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991913" sideWeight="0.49554366" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991913" sideWeight="0.5026738" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1128,7 +1651,6 @@
       <window_info id="SBT Execute" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41867787" sideWeight="0.48733154" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1148,7 +1670,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="hotfix/chessella-1 restored missing files, removed redundant try/catch blocks" />
     <MESSAGE value="hotfix/chessella-1 remove test files of ICTK libraries" />
     <MESSAGE value="hotfix/chessella-1 now ictk also using log4j" />
     <MESSAGE value="hotfix/chessella-1 removed commented out code" />
@@ -1173,7 +1694,8 @@
     <MESSAGE value="Removed codec commons" />
     <MESSAGE value="Removed other redundant libraries" />
     <MESSAGE value="Other redundant libraries removed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Other redundant libraries removed" />
+    <MESSAGE value="Common pool and validator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Common pool and validator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1202,27 +1724,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/webwork-2.2.2.jar!/com/opensymphony/webwork/dispatcher/mapper/ActionMapperFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/sitemesh-2.2.1.jar!/com/opensymphony/module/sitemesh/filter/PageFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-793">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/xwork-1.1.3.jar!/com/opensymphony/xwork/config/ConfigurationException.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/com/amicabile/openingtrainer/controller/TestMoveTreePrinter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1454,20 +1955,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/pgn/PGNStripper.java">
+    <entry file="file://$PROJECT_DIR$/src/com/amicabile/support/FileUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+        <state relative-caret-position="342">
+          <caret line="19" column="14" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="19" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/amicabile/support/FileUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/com/amicabile/support/RegExUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/commons-digester.jar!/org/apache/commons/digester/SimpleRegexMatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="11" lean-forward="false" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/xwork-1.1.3.jar!/com/opensymphony/xwork/DefaultActionProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/amicabile/openingtrainer/pgn/PGNStripper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>

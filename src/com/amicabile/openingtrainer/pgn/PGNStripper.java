@@ -1,5 +1,6 @@
 package com.amicabile.openingtrainer.pgn;
 
+import com.amicabile.support.RegExUtil;
 import ictk.boardgame.ContinuationList;
 import ictk.boardgame.History;
 import ictk.boardgame.Move;
@@ -13,7 +14,6 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.Reader;
 import java.io.Writer;
-import org.apache.commons.digester.SimpleRegexMatcher;
 import org.apache.log4j.Logger;
 
 public class PGNStripper {
@@ -28,8 +28,8 @@ public class PGNStripper {
       } else if(comment.contains("[")) {
          return "";
       } else {
-         SimpleRegexMatcher regexMatcher = new SimpleRegexMatcher();
-         return regexMatcher.match(comment, "[a-zA-Z0-9 ]*")?"":comment;
+
+         return RegExUtil.matches(comment, "[a-zA-Z0-9 ]*")?"":comment;
       }
    }
 
