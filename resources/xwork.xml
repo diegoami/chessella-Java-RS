@@ -80,7 +80,6 @@
 			<result name="success" type="freemarker" >fileuploadtemplate.ftl</result>
 			<result name="error" type="freemarker">gameerror.ftl</result>
 			<interceptor-ref name="fileUpload"/>
-			
 		</action>
 
 		<action name="savelink" class="com.amicabile.openingtrainer.servlet.webwork.games.GameAction" method="saveGameFromLink" >
