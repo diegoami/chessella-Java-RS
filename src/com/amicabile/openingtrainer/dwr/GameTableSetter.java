@@ -4,7 +4,7 @@ import com.amicabile.openingtrainer.model.dataobj.User;
 import com.amicabile.openingtrainer.repository.GameRepository;
 import javax.servlet.http.HttpServletRequest;
 import org.apache.log4j.Logger;
-import uk.ltd.getahead.dwr.ExecutionContext;
+import uk.ltd.getahead.dwr.WebContextFactory;
 
 public class GameTableSetter {
 
@@ -12,7 +12,7 @@ public class GameTableSetter {
 
 
    public String deleteGameById(int id) {
-      HttpServletRequest request = ExecutionContext.get().getHttpServletRequest();
+      HttpServletRequest request = WebContextFactory.get().getHttpServletRequest();
       String resultSucc = "<IMG SRC=\'deleted.gif\' BORDER=0 >";
       String resultFailed = "<IMG SRC=\'delete.gif\' BORDER=0 >";
       User user = (User)request.getSession().getAttribute("user");
@@ -33,7 +33,7 @@ public class GameTableSetter {
    }
 
    public String switchGameStateById(int id) {
-      HttpServletRequest request = ExecutionContext.get().getHttpServletRequest();
+      HttpServletRequest request = WebContextFactory.get().getHttpServletRequest();
       User user = (User)request.getSession().getAttribute("user");
       if(user != null) {
          String username = user.getUsername();
@@ -52,7 +52,7 @@ public class GameTableSetter {
    }
 
    public String switchDeleteStateById(int id) {
-      HttpServletRequest request = ExecutionContext.get().getHttpServletRequest();
+      HttpServletRequest request = WebContextFactory.get().getHttpServletRequest();
       User user = (User)request.getSession().getAttribute("user");
       if(user != null) {
          String username = user.getUsername();

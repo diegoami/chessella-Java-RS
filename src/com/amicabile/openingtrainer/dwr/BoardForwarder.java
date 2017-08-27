@@ -17,6 +17,7 @@ import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletRequest;
 import org.apache.log4j.Logger;
 import uk.ltd.getahead.dwr.ExecutionContext;
+import uk.ltd.getahead.dwr.WebContextFactory;
 
 public class BoardForwarder {
 
@@ -28,14 +29,14 @@ public class BoardForwarder {
       boolean flippedBool = "1".equals(flipped);
 
       try {
-         ServletContext httpServletRequest = ExecutionContext.get().getServletContext();
+         ServletContext httpServletRequest = WebContextFactory.get().getServletContext();
          cfg.setServletContextForTemplateLoading(httpServletRequest, "games");
          cfg.setObjectWrapper(new DefaultObjectWrapper());
       } catch (Exception var15) {
          var15.printStackTrace();
       }
 
-      HttpServletRequest httpServletRequest1 = ExecutionContext.get().getHttpServletRequest();
+      HttpServletRequest httpServletRequest1 = WebContextFactory.get().getHttpServletRequest();
       String base = httpServletRequest1.getContextPath();
 
       try {
